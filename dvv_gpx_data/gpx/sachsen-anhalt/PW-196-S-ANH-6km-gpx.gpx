@@ -1,0 +1,2650 @@
+﻿<?xml version="1.0" encoding="utf-8"?><gpx creator="Garmin Desktop App" version="1.1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.garmin.com/xmlschemas/WaypointExtension/v1 http://www8.garmin.com/xmlschemas/WaypointExtensionv1.xsd http://www.garmin.com/xmlschemas/TrackPointExtension/v1 http://www.garmin.com/xmlschemas/TrackPointExtensionv1.xsd http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www8.garmin.com/xmlschemas/GpxExtensionsv3.xsd http://www.garmin.com/xmlschemas/ActivityExtension/v1 http://www8.garmin.com/xmlschemas/ActivityExtensionv1.xsd http://www.garmin.com/xmlschemas/AdventuresExtensions/v1 http://www8.garmin.com/xmlschemas/AdventuresExtensionv1.xsd http://www.garmin.com/xmlschemas/PressureExtension/v1 http://www.garmin.com/xmlschemas/PressureExtensionv1.xsd http://www.garmin.com/xmlschemas/TripExtensions/v1 http://www.garmin.com/xmlschemas/TripExtensionsv1.xsd http://www.garmin.com/xmlschemas/TripMetaDataExtensions/v1 http://www.garmin.com/xmlschemas/TripMetaDataExtensionsv1.xsd http://www.garmin.com/xmlschemas/ViaPointTransportationModeExtensions/v1 http://www.garmin.com/xmlschemas/ViaPointTransportationModeExtensionsv1.xsd http://www.garmin.com/xmlschemas/CreationTimeExtension/v1 http://www.garmin.com/xmlschemas/CreationTimeExtensionsv1.xsd http://www.garmin.com/xmlschemas/AccelerationExtension/v1 http://www.garmin.com/xmlschemas/AccelerationExtensionv1.xsd http://www.garmin.com/xmlschemas/PowerExtension/v1 http://www.garmin.com/xmlschemas/PowerExtensionv1.xsd http://www.garmin.com/xmlschemas/VideoExtension/v1 http://www.garmin.com/xmlschemas/VideoExtensionv1.xsd" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:wptx1="http://www.garmin.com/xmlschemas/WaypointExtension/v1" xmlns:gpxtrx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:gpxtpx="http://www.garmin.com/xmlschemas/TrackPointExtension/v1" xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:trp="http://www.garmin.com/xmlschemas/TripExtensions/v1" xmlns:adv="http://www.garmin.com/xmlschemas/AdventuresExtensions/v1" xmlns:prs="http://www.garmin.com/xmlschemas/PressureExtension/v1" xmlns:tmd="http://www.garmin.com/xmlschemas/TripMetaDataExtensions/v1" xmlns:vptm="http://www.garmin.com/xmlschemas/ViaPointTransportationModeExtensions/v1" xmlns:ctx="http://www.garmin.com/xmlschemas/CreationTimeExtension/v1" xmlns:gpxacc="http://www.garmin.com/xmlschemas/AccelerationExtension/v1" xmlns:gpxpx="http://www.garmin.com/xmlschemas/PowerExtension/v1" xmlns:vidx1="http://www.garmin.com/xmlschemas/VideoExtension/v1">
+
+  <metadata>
+    <link href="http://www.garmin.com">
+      <text>Garmin International</text>
+    </link>
+    <time>2024-05-05T16:10:27Z</time>
+    <bounds maxlat="51.869420008733869" maxlon="10.680839354172349" minlat="51.855385014787316" minlon="10.662765288725495" />
+  </metadata>
+
+  <wpt lat="51.855418626219034" lon="10.670190313830972">
+    <ele>281.03515625</ele>
+    <time>2024-05-02T09:41:42Z</time>
+    <name>KP1-PW-6km</name>
+    <sym>Flag, Blue</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2024-05-02T09:41:42Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.867966838181019" lon="10.663583194836974">
+    <ele>298.2265625</ele>
+    <time>2023-01-01T11:29:47Z</time>
+    <name>KP2-PW6km</name>
+    <sym>Flag, Blue</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2023-01-01T11:29:47Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="51.863970346748829" lon="10.67711116746068">
+    <ele>250.83984375</ele>
+    <time>2024-05-03T07:18:40Z</time>
+    <name>Start/Ziel</name>
+    <sym>Flag, Blue</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2024-05-03T07:18:40Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <rte>
+    <name>IlsenburgRunde-PW-6km</name>
+    <extensions>
+      <gpxx:RouteExtension>
+        <gpxx:IsAutoNamed>false</gpxx:IsAutoNamed>
+        <gpxx:DisplayColor>DarkMagenta</gpxx:DisplayColor>
+      </gpxx:RouteExtension>
+      <trp:Trip>
+        <trp:TransportationMode>Automotive</trp:TransportationMode>
+      </trp:Trip>
+    </extensions>
+    <rtept lat="51.863863728940487" lon="10.677099097520113">
+      <ele>250.80078125</ele>
+      <time>2021-08-31T11:00:55Z</time>
+      <name>Track1</name>
+      <cmt>Track</cmt>
+      <desc>Track</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>FasterTime</trp:CalculationMode>
+          <trp:ElevationMode>Standard</trp:ElevationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.863678656518459" lon="10.677063809707761">
+      <ele>250.89453125</ele>
+      <time>2021-08-31T11:02:34Z</time>
+      <name>E11 Niederlande - Polen1</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>4E0012BC02010D8035900D2407007EE1B397</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.863385373726487" lon="10.677081076428294">
+      <ele>251.04296875</ele>
+      <time>2021-08-31T11:02:32Z</time>
+      <name>E11 Niederlande - Polen</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>4E0012BC02010D8035900D24070070E1B497</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.863097539171576" lon="10.677138660103083">
+      <ele>251.3125</ele>
+      <time>2021-08-31T11:02:48Z</time>
+      <name>E11 Niederlande - Polen2</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>4E0012BC02010D8035900D24070063E1B697</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.862692190334201" lon="10.677355919033289">
+      <ele>251.7421875</ele>
+      <time>2021-08-31T11:02:46Z</time>
+      <name>0011</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>FasterTime</trp:CalculationMode>
+          <trp:ElevationMode>Standard</trp:ElevationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.861993307247758" lon="10.677318703383207">
+      <ele>253.4921875</ele>
+      <time>2021-08-31T11:02:56Z</time>
+      <name>Rund Um Den Brocken</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>4E0012BC0201028012640D2407002FE1BD97</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.861826758831739" lon="10.677273273468018">
+      <ele>253.890625</ele>
+      <time>2021-08-31T11:03:27Z</time>
+      <name>Stadt114</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>881012BC020101804C630324070028E1BD97</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.861656103283167" lon="10.677190208807588">
+      <ele>254.3828125</ele>
+      <time>2021-08-31T11:03:24Z</time>
+      <name>Stadt103</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>881012BC020101804C630324070020E1B997</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.861352426931262" lon="10.676989629864693">
+      <ele>254.9921875</ele>
+      <time>2021-08-31T11:03:19Z</time>
+      <name>Stadt93</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>881012BC020101804C630324070012E1AF97</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.861250335350633" lon="10.676923412829638">
+      <ele>255.171875</ele>
+      <time>2021-08-31T11:03:39Z</time>
+      <name>Rund Um Den Brocken1</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>4E0012BC0201028012640D2407000EE1AB97</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.860341737046838" lon="10.677415430545807">
+      <ele>260.0234375</ele>
+      <time>2021-08-31T11:00:55Z</time>
+      <name>Track-13</name>
+      <cmt>Track-1</cmt>
+      <desc>Track-1</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.86020796187222" lon="10.677386932075024">
+      <ele>259.9140625</ele>
+      <time>2021-08-31T11:04:08Z</time>
+      <name>Unterirdischer Wasserlauf</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>4E6812BC020108804B630D240700DCE0C297</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.859950553625822" lon="10.677268411964178">
+      <ele>259.05859375</ele>
+      <time>2021-08-31T11:04:05Z</time>
+      <name>Stadt123</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>881012BC020101804C6303240700D0E0BC97</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.859850473701954" lon="10.677199931815267">
+      <ele>259.2265625</ele>
+      <time>2021-08-31T11:04:16Z</time>
+      <name>Rund Um Den Brocken2</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>4E0012BC0201028012640D240700CCE0B897</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.85971200466156" lon="10.677067833021283">
+      <ele>259.3359375</ele>
+      <time>2021-08-31T11:04:13Z</time>
+      <name>Mühlenstrasse6</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>060012BC020101204B630D240700C5E0B397</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.85956004075706" lon="10.676787961274385">
+      <ele>259.19140625</ele>
+      <time>2021-08-31T11:00:55Z</time>
+      <name>Track-21</name>
+      <cmt>Track-2</cmt>
+      <desc>Track-2</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.859440514817834" lon="10.676564080640674">
+      <ele>259.44921875</ele>
+      <time>2021-08-31T11:04:36Z</time>
+      <name>Rund Um Den Brocken3</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>4E0012BC0201028012640D240700B9E09A97</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.859319061040878" lon="10.676381103694439">
+      <ele>259.6484375</ele>
+      <time>2021-08-31T11:04:46Z</time>
+      <name>Rund Um Den Brocken4</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>4E0012BC0201028012640D240700B3E09397</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.859019491821527" lon="10.676083797588944">
+      <ele>260.89453125</ele>
+      <time>2021-08-31T11:05:04Z</time>
+      <name>Rund Um Den Brocken5</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>4E0012BC0201028012640D240700A5E08497</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.85876258648932" lon="10.675974916666746">
+      <ele>261.91796875</ele>
+      <time>2021-08-31T11:05:01Z</time>
+      <name>Laubwald414</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>90F012BC020101803A630324070099E08097</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.858671139925718" lon="10.675769224762917">
+      <ele>262.28515625</ele>
+      <time>2021-08-31T11:05:12Z</time>
+      <name>Laubwald513</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>90F012BC020101803A630324070095E07697</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.858582543209195" lon="10.675690351054072">
+      <ele>262.92578125</ele>
+      <time>2021-08-31T11:05:28Z</time>
+      <name>Laubwald8</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>90F012BC020101803A630324070091E07397</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.858252296224236" lon="10.675521455705166">
+      <ele>264.6484375</ele>
+      <time>2021-08-31T11:05:21Z</time>
+      <name>Laubwald7</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>90F012BC020101803A630324070081E06B97</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.858115755021572" lon="10.675355242565274">
+      <ele>265.5546875</ele>
+      <time>2021-08-31T11:05:19Z</time>
+      <name>Laubwald6</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>90F012BC020101803A63032407007BE06397</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.857742592692375" lon="10.674979900941253">
+      <ele>267.140625</ele>
+      <time>2021-08-31T11:05:55Z</time>
+      <name>Stadt13</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>881012BC020101805E630324070069E05297</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.857548383995891" lon="10.674644792452455">
+      <ele>267.52734375</ele>
+      <time>2021-08-31T11:06:03Z</time>
+      <name>Rund Um Den Brocken6</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>4E0012BC0201028012640D24070060E04297</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.856757719069719" lon="10.673885978758335">
+      <ele>270.6640625</ele>
+      <time>2021-08-31T11:06:13Z</time>
+      <name>Rund Um Den Brocken7</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>4E0012BC0201028012640D2407003CE01F97</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.856579016894102" lon="10.67362287081778">
+      <ele>271.609375</ele>
+      <time>2021-08-31T11:06:23Z</time>
+      <name>Laubwald10</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>90F012BC020101803A630324070033E01297</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.856350777670741" lon="10.673178713768721">
+      <ele>272.80078125</ele>
+      <time>2021-08-31T11:06:20Z</time>
+      <name>Laubwald9</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>90F012BC020101803A630324070029E0FE96</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.856199987232685" lon="10.673001017421484">
+      <ele>273.56640625</ele>
+      <time>2021-08-31T11:00:55Z</time>
+      <name>Track-31</name>
+      <cmt>Track-3</cmt>
+      <desc>Track-3</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.855853563174605" lon="10.671729231253266">
+      <ele>276.07421875</ele>
+      <time>2021-08-31T11:06:46Z</time>
+      <name>Waldhofstrasse</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>060012BC020102206E630D24070011E0BA96</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.855570590123534" lon="10.671116095036268">
+      <ele>277.80859375</ele>
+      <time>2021-08-31T11:06:52Z</time>
+      <name>Stadt15</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>881012BC0201048073630324070003E09E96</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.855498673394322" lon="10.670906966552138">
+      <ele>278.46484375</ele>
+      <time>2021-08-31T11:07:01Z</time>
+      <name>Waldhofstrasse2</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>060012BC020102206E630D24070001E09496</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.855432707816362" lon="10.670706806704402">
+      <ele>279.203125</ele>
+      <time>2021-08-31T11:06:59Z</time>
+      <name>Waldhofstrasse1</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>060012BC020102206E630D240700FEDF8A96</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.855392726138234" lon="10.670515866950154">
+      <ele>279.88671875</ele>
+      <time>2021-08-31T11:07:04Z</time>
+      <name>Waldhofstrasse3</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>060012BC020102206E630D240700FCDF8296</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.855385014787316" lon="10.670293997973204">
+      <ele>280.6484375</ele>
+      <time>2021-08-31T11:00:55Z</time>
+      <name>Track-41</name>
+      <cmt>Track-4</cmt>
+      <desc>Track-4</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.855418626219034" lon="10.670190313830972">
+      <ele>281.03515625</ele>
+      <time>2021-08-31T11:07:10Z</time>
+      <name>Rohnberg, Westerberg Und Köhlerholz Bei Ilsenburg</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>4F7812BC0201038072630D240700FDDF6F96</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.85553178191185" lon="10.67010716535151">
+      <ele>281.24609375</ele>
+      <time>2021-08-31T11:07:12Z</time>
+      <name>Laubwald11</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>90F012BC020102806F630324070002E06A96</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.855655750259757" lon="10.670095765963197">
+      <ele>281.1328125</ele>
+      <time>2021-08-31T11:07:15Z</time>
+      <name>Waldhofstrasse4</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>060012BC020102206E630D24070007E06D96</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.855729427188635" lon="10.67010716535151">
+      <ele>280.9375</ele>
+      <time>2021-08-31T11:07:18Z</time>
+      <name>Waldhofstrasse5</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>060012BC020102206E630D2407000BE06E96</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.855797655880451" lon="10.670135831460357">
+      <ele>280.609375</ele>
+      <time>2021-08-31T11:07:26Z</time>
+      <name>Laubwald12</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>90F012BC020102806F63032407000FE06D96</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.856025140732527" lon="10.670265918597579">
+      <ele>279.3359375</ele>
+      <time>2021-08-31T11:07:29Z</time>
+      <name>Harz</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>4F7012BC0201028073630D24070019E07696</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.856179954484105" lon="10.670425426214933">
+      <ele>278.12109375</ele>
+      <time>2021-08-31T11:07:31Z</time>
+      <name>Harz1</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>4F7012BC0201028073630D24070021E07D96</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.856241058558226" lon="10.670482758432627">
+      <ele>277.71875</ele>
+      <time>2021-08-31T11:07:34Z</time>
+      <name>Harz2</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>4F7012BC0201028073630D24070023E07F96</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.856396123766899" lon="10.670590130612254">
+      <ele>276.8359375</ele>
+      <time>2021-08-31T11:21:00Z</time>
+      <name>Harz19</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>4F7012BC0201028073630D2407002BE08596</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.856471979990602" lon="10.670588538050652">
+      <ele>276.8203125</ele>
+      <time>2021-08-31T11:00:55Z</time>
+      <name>Track-51</name>
+      <cmt>Track-5</cmt>
+      <desc>Track-5</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.856574825942516" lon="10.670620892196894">
+      <ele>276.51953125</ele>
+      <time>2021-08-31T11:21:03Z</time>
+      <name>Harz20</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>4F7012BC0201028073630D24070033E08696</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.856685131788254" lon="10.670595243573189">
+      <ele>276.6875</ele>
+      <time>2021-08-31T11:07:40Z</time>
+      <name>Rohnberg, Westerberg Und Köhlerholz Bei Ilsenburg1</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>4F7812BC0201058073630D24070038E08596</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.85687699355185" lon="10.670508574694395">
+      <ele>277.44921875</ele>
+      <time>2021-08-31T11:07:44Z</time>
+      <name>Laubwald13</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>90F012BC020102806F630324070040E07C96</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.857075057923794" lon="10.670403130352497">
+      <ele>278.54296875</ele>
+      <time>2021-08-31T11:07:48Z</time>
+      <name>Laubwald14</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>90F012BC020102806F63032407004AE07A96</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.857257364317775" lon="10.670317299664021">
+      <ele>279.49609375</ele>
+      <time>2021-08-31T11:08:00Z</time>
+      <name>Harz3</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>4F7012BC020102806F630D24070055E07896</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.857366999611259" lon="10.670288633555174">
+      <ele>279.703125</ele>
+      <time>2021-08-31T11:07:58Z</time>
+      <name>Gasse32</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>070012BC020106206F630D24070058E07396</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.857591215521097" lon="10.670238509774208">
+      <ele>279.90625</ele>
+      <time>2021-08-31T11:07:56Z</time>
+      <name>Rohnberg, Westerberg Und Köhlerholz Bei Ilsenburg2</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>4F7812BC020103806F630D24070062E07596</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.857845522463322" lon="10.670246640220284">
+      <ele>279.37109375</ele>
+      <time>2021-08-31T11:08:11Z</time>
+      <name>Rohnberg, Westerberg Und Köhlerholz Bei Ilsenburg3</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>4F7812BC020103806F630D2407006EE07496</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.858142158016562" lon="10.670161647722125">
+      <ele>279.4296875</ele>
+      <time>2021-08-31T11:08:15Z</time>
+      <name>Wirtschaftsweg7</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>0D0012BC0201012069630D2407007CE07196</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.858408786356449" lon="10.670009516179562">
+      <ele>280.51171875</ele>
+      <time>2021-08-31T11:08:26Z</time>
+      <name>Gasse410</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>070012BC020103206F630D24070089E06A96</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.85855052433908" lon="10.669837603345513">
+      <ele>282.11328125</ele>
+      <time>2021-08-31T11:08:30Z</time>
+      <name>Laubwald15</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>90F012BC020102806F63032407008FE06296</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.85896685346961" lon="10.669719837605953">
+      <ele>282.31640625</ele>
+      <time>2021-08-31T11:08:33Z</time>
+      <name>Laubwald16</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>90F012BC020102806F6303240700A3E05C96</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.859063832089305" lon="10.669594025239348">
+      <ele>283.28515625</ele>
+      <time>2021-08-31T11:08:36Z</time>
+      <name>Nadelwald71</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>90E812BC020103806F6303240700A7E05796</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.859295004978776" lon="10.669551026076078">
+      <ele>283.5078125</ele>
+      <time>2021-08-31T11:00:55Z</time>
+      <name>Track-61</name>
+      <cmt>Track-6</cmt>
+      <desc>Track-6</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.859431881457567" lon="10.669398978352547">
+      <ele>285.21875</ele>
+      <time>2021-08-31T11:08:40Z</time>
+      <name>Nadelwald12</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>90E812BC020103806F6303240700B8E04E96</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.859771851450205" lon="10.669350363314152">
+      <ele>287.20703125</ele>
+      <time>2021-08-31T11:08:43Z</time>
+      <name>Harz4</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>4F7012BC020102806F630D240700C8E04B96</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.859915852546692" lon="10.669343071058393">
+      <ele>288.28125</ele>
+      <time>2021-08-31T11:08:45Z</time>
+      <name>Nadelwald22</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>90E812BC020103806F6303240700CFE04996</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.860031438991427" lon="10.669355476275086">
+      <ele>288.8125</ele>
+      <time>2021-08-31T11:08:48Z</time>
+      <name>Harz5</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>4F7012BC020102806F630D240700D4E04C96</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.860199244692922" lon="10.669325217604637">
+      <ele>290.3046875</ele>
+      <time>2021-08-31T11:08:50Z</time>
+      <name>Harz6</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>4F7012BC020102806F630D240700DCE04A96</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.86032036319375" lon="10.669471230357885">
+      <ele>288.36328125</ele>
+      <time>2021-08-31T11:08:53Z</time>
+      <name>Nadelwald3</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>90E812BC020103806F6303240700E2E05196</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.860433183610439" lon="10.669522695243359">
+      <ele>288.14453125</ele>
+      <time>2021-08-31T11:08:55Z</time>
+      <name>Nadelwald4</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>90E812BC020103806F6303240700E7E05396</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.860740380361676" lon="10.669539794325829">
+      <ele>289.00390625</ele>
+      <time>2021-08-31T11:08:59Z</time>
+      <name>Laubwald17</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>90F012BC02010180036303240700F5E05496</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.860923608765006" lon="10.66959410905838">
+      <ele>288.6875</ele>
+      <time>2021-08-31T11:09:02Z</time>
+      <name>Laubwald18</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>90F012BC02010180036303240700FEE05796</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.861113710328937" lon="10.669642640277743">
+      <ele>288.30078125</ele>
+      <time>2021-08-31T11:09:06Z</time>
+      <name>Laubwald20</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>90F012BC0201018003630324070007E15996</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.86130054295063" lon="10.669591007754207">
+      <ele>289.43359375</ele>
+      <time>2021-08-31T11:09:05Z</time>
+      <name>Laubwald19</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>90F012BC020101800363032407000FE15696</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.861648978665471" lon="10.669679353013635">
+      <ele>288.78515625</ele>
+      <time>2021-08-31T11:09:13Z</time>
+      <name>Laubwald21</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>90F012BC0201018003630324070020E15B96</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.861839415505528" lon="10.669730650261045">
+      <ele>288.4765625</ele>
+      <time>2021-08-31T11:09:18Z</time>
+      <name>Laubwald23</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>90F012BC0201018003630324070028E15D96</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.861995737999678" lon="10.669661918655038">
+      <ele>290.15234375</ele>
+      <time>2021-08-31T11:09:17Z</time>
+      <name>Laubwald22</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>90F012BC0201018003630324070030E15A96</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.862124903127551" lon="10.669655967503786">
+      <ele>290.8828125</ele>
+      <time>2021-08-31T11:09:25Z</time>
+      <name>Laubwald25</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>90F012BC0201018003630324070036E15A96</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.862324308604002" lon="10.669782031327486">
+      <ele>289.94921875</ele>
+      <time>2021-08-31T11:09:22Z</time>
+      <name>Laubwald24</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>90F012BC020101800363032407003FE15F96</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.862611640244722" lon="10.669789994135499">
+      <ele>291.484375</ele>
+      <time>2021-08-31T11:09:30Z</time>
+      <name>Laubwald27</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>90F012BC020101800363032407004CE16096</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.862820014357567" lon="10.669916057959199">
+      <ele>290.86328125</ele>
+      <time>2021-08-31T11:09:28Z</time>
+      <name>Laubwald26</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>90F012BC0201018003630324070056E16696</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.862969379872084" lon="10.669892588630319">
+      <ele>292.5546875</ele>
+      <time>2021-08-31T11:09:33Z</time>
+      <name>Rohnberg, Westerberg Und Köhlerholz Bei Ilsenburg4</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>4F7812BC020103806F630D2407005DE16596</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.863138442859054" lon="10.669868281111121">
+      <ele>299.92320000000001</ele>
+      <time>2021-08-31T11:09:35Z</time>
+      <name>300 m Höhe</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>490012BC02010480D6620D24070065E16396</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.863371040672064" lon="10.670076068490744">
+      <ele>294.3984375</ele>
+      <time>2021-08-31T11:09:38Z</time>
+      <name>Laubwald28</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>90F012BC0201018003630324070070E16D96</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.863579414784908" lon="10.67003583535552">
+      <ele>296.1796875</ele>
+      <time>2021-08-31T11:09:41Z</time>
+      <name>Wirtschaftsweg8</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>0D0012BC0201022003630D24070079E16B96</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.863774880766869" lon="10.670078750699759">
+      <ele>297.02734375</ele>
+      <time>2021-08-31T11:09:44Z</time>
+      <name>Laubwald29</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>90F012BC0201018003630324070083E16D96</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.863959785550833" lon="10.670084618031979">
+      <ele>295.63671875</ele>
+      <time>2021-08-31T11:09:49Z</time>
+      <name>Laubwald31</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>90F012BC020101800363032407008BE16D96</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.864071181043983" lon="10.669984370470047">
+      <ele>295.6875</ele>
+      <time>2021-08-31T11:09:47Z</time>
+      <name>Laubwald30</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>90F012BC0201018003630324070090E16996</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.864320039749146" lon="10.670058969408274">
+      <ele>292.8828125</ele>
+      <time>2021-08-31T11:00:55Z</time>
+      <name>Track-71</name>
+      <cmt>Track-7</cmt>
+      <desc>Track-7</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.864438811317086" lon="10.669976407662034">
+      <ele>292.25390625</ele>
+      <time>2021-08-31T11:09:55Z</time>
+      <name>Gasse51</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>070012BC0201012003630D240700A2E16896</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.864436296746135" lon="10.669838357716799">
+      <ele>293.65234375</ele>
+      <time>2021-08-31T11:09:57Z</time>
+      <name>Laubwald32</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>90F012BC02010180036303240700A1E16296</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.864503351971507" lon="10.669690500944853">
+      <ele>294.65625</ele>
+      <time>2021-08-31T11:10:03Z</time>
+      <name>Harz7</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>4F7012BC02010280DC620D240700A5E15B96</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.864599995315075" lon="10.669563515111804">
+      <ele>295.08203125</ele>
+      <time>2021-08-31T11:10:07Z</time>
+      <name>Harz8</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>4F7012BC02010280DC620D240700A9E15596</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.864644419401884" lon="10.669391686096787">
+      <ele>296.55078125</ele>
+      <time>2021-08-31T11:10:05Z</time>
+      <name>Laubwald33</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>90F012BC02010180036303240700ABE14D96</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.864780625328422" lon="10.669211391359568">
+      <ele>296.25</ele>
+      <time>2021-08-31T11:10:12Z</time>
+      <name>Laubwald34</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>90F012BC02010180036303240700B1E14596</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.864876095205545" lon="10.669202925637364">
+      <ele>294.63671875</ele>
+      <time>2021-08-31T11:10:09Z</time>
+      <name>Harz9</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>4F7012BC02010280DC620D240700B6E14496</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.865043984726071" lon="10.668922970071435">
+      <ele>294.4453125</ele>
+      <time>2021-08-31T11:00:55Z</time>
+      <name>Track-81</name>
+      <cmt>Track-8</cmt>
+      <desc>Track-8</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.865066280588508" lon="10.668870080262423">
+      <ele>294.61328125</ele>
+      <time>2021-08-31T11:10:17Z</time>
+      <name>Laubwald35</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>90F012BC02010180036303240700BFE13596</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.865520663559437" lon="10.668835882097483">
+      <ele>287.59765625</ele>
+      <time>2021-08-31T11:10:20Z</time>
+      <name>Laubwald36</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>90F012BC02010180036303240700D4E13396</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.865716380998492" lon="10.668692467734218">
+      <ele>285.81640625</ele>
+      <time>2021-08-31T11:10:23Z</time>
+      <name>Laubwald37</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>90F012BC02010180036303240700DDE12D96</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.865807743743062" lon="10.668471688404679">
+      <ele>286.37890625</ele>
+      <time>2021-08-31T11:00:55Z</time>
+      <name>Track-91</name>
+      <cmt>Track-9</cmt>
+      <desc>Track-9</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.865856274962425" lon="10.668394323438406">
+      <ele>286.21875</ele>
+      <time>2021-08-31T11:10:32Z</time>
+      <name>Laubwald38</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>90F012BC02010180036303240700E4E11F96</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.865902962163091" lon="10.668382840231061">
+      <ele>285.4609375</ele>
+      <time>2021-08-31T11:10:36Z</time>
+      <name>Laubwald39</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>90F012BC02010180036303240700E6E11E96</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.865976471453905" lon="10.668509406968951">
+      <ele>282.90234375</ele>
+      <time>2021-08-31T11:10:34Z</time>
+      <name>Harz10</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>4F7012BC02010280DC620D240700E9E12496</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.866001114249229" lon="10.668408572673798">
+      <ele>283.39453125</ele>
+      <time>2021-08-31T11:10:48Z</time>
+      <name>Laubwald42</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>90F012BC02010180036303240700EAE11F96</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.866090884432197" lon="10.668342690914869">
+      <ele>282.35546875</ele>
+      <time>2021-08-31T11:10:39Z</time>
+      <name>Laubwald40</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>90F012BC02010180036303240700EBE11D96</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.866060374304652" lon="10.668230960145593">
+      <ele>283.9375</ele>
+      <time>2021-08-31T11:10:43Z</time>
+      <name>Laubwald41</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>90F012BC02010180036303240700EDE11796</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.86616531573236" lon="10.668213190510869">
+      <ele>282.34765625</ele>
+      <time>2021-08-31T11:10:57Z</time>
+      <name>Harz12</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>4F7012BC02010280DC620D240700F2E11696</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.866193478927016" lon="10.668143955990672">
+      <ele>282.48828125</ele>
+      <time>2021-08-31T11:10:55Z</time>
+      <name>Harz11</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>4F7012BC02010280DC620D240700F3E11396</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.86634954996407" lon="10.66790490411222">
+      <ele>280.1112</ele>
+      <time>2021-08-31T11:10:53Z</time>
+      <name>280 m Höhe</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>490012BC02010A80DC960D240700FBE10896</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.866401853039861" lon="10.667772889137268">
+      <ele>280.1112</ele>
+      <time>2021-08-31T11:11:00Z</time>
+      <name>280 m Höhe1</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>490012BC02010A80DC960D240700FDE10296</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.866566892713308" lon="10.667758220806718">
+      <ele>278.7890625</ele>
+      <time>2021-08-31T11:11:03Z</time>
+      <name>Rohnberg, Westerberg Und Köhlerholz Bei Ilsenburg5</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>4F7812BC02010380D7620D24070004E20096</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.866627996787429" lon="10.667640790343285">
+      <ele>278.765625</ele>
+      <time>2021-08-31T11:11:05Z</time>
+      <name>Laubwald43</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>90F012BC0201018003630324070008E2FC95</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.866624560207129" lon="10.667553786188364">
+      <ele>279.3046875</ele>
+      <time>2021-08-31T11:00:55Z</time>
+      <name>Track-101</name>
+      <cmt>Track-10</cmt>
+      <desc>Track-10</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.86663000844419" lon="10.667447755113244">
+      <ele>279.90234375</ele>
+      <time>2021-08-31T11:11:16Z</time>
+      <name>Laubwald44</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>90F012BC0201018003630324070011E2F495</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.866638977080584" lon="10.667284391820431">
+      <ele>280.80078125</ele>
+      <time>2021-08-31T11:11:18Z</time>
+      <name>Laubwald45</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>90F012BC0201018003630324070010E2EC95</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.866683904081583" lon="10.667184144258499">
+      <ele>280.81640625</ele>
+      <time>2021-08-31T11:11:20Z</time>
+      <name>Laubwald46</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>90F012BC0201018003630324070012E2E795</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.866743164137006" lon="10.667052296921611">
+      <ele>280.6640625</ele>
+      <time>2021-08-31T11:11:24Z</time>
+      <name>Laubwald48</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>90F012BC0201018003630324070015E2E495</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.866795383393764" lon="10.666910978034139">
+      <ele>280.5</ele>
+      <time>2021-08-31T13:12:50Z</time>
+      <name>Gasse981</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>070012BC02010220D3620D2407000FE2DA95</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.866863528266549" lon="10.666857836768031">
+      <ele>279.76953125</ele>
+      <time>2021-08-31T11:11:22Z</time>
+      <name>Laubwald47</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>90F012BC0201018003630324070019E2E395</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.86699110083282" lon="10.666731772944331">
+      <ele>278.50390625</ele>
+      <time>2021-08-31T11:11:27Z</time>
+      <name>Laubwald49</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>90F012BC020101800363032407001BE2DD95</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.867075506597757" lon="10.666674105450511">
+      <ele>277.83203125</ele>
+      <time>2021-08-31T11:11:29Z</time>
+      <name>Laubwald50</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>90F012BC020101800363032407001EE2DB95</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.867104256525636" lon="10.666656922549009">
+      <ele>277.61328125</ele>
+      <time>2021-08-31T11:11:31Z</time>
+      <name>Laubwald51</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>90F012BC0201018003630324070021E2D395</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.867138370871544" lon="10.666652983054519">
+      <ele>277.2890625</ele>
+      <time>2021-08-31T11:11:34Z</time>
+      <name>Laubwald52</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>90F012BC020101800363032407001FE2CE95</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.867226464673877" lon="10.666615767404437">
+      <ele>276.56640625</ele>
+      <time>2021-08-31T11:11:36Z</time>
+      <name>Laubwald53</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>90F012BC0201018003630324070023E2CC95</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.867259992286563" lon="10.666415020823479">
+      <ele>277.02734375</ele>
+      <time>2021-08-31T11:11:39Z</time>
+      <name>Harz13</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>4F7012BC02010280D7620D24070025E2C295</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.867278348654509" lon="10.666363472118974">
+      <ele>277.05078125</ele>
+      <time>2021-08-31T11:11:41Z</time>
+      <name>Laubwald54</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>90F012BC0201018003630324070026E2C095</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.867443639785051" lon="10.666381409391761">
+      <ele>275.34375</ele>
+      <time>2021-08-31T11:11:44Z</time>
+      <name>Harz14</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>4F7012BC02010280D7620D2407002EE2C195</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.867614043876529" lon="10.666372440755367">
+      <ele>274.859375</ele>
+      <time>2021-08-31T11:11:46Z</time>
+      <name>Gasse610</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>070012BC02010220D3620D24070035E2BF95</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.867671543732285" lon="10.666280826553702">
+      <ele>275.09765625</ele>
+      <time>2021-08-31T11:11:51Z</time>
+      <name>Gasse710</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>070012BC02010220D3620D24070038E2BC95</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.867741197347641" lon="10.666115451604128">
+      <ele>275.57421875</ele>
+      <time>2021-08-31T11:00:55Z</time>
+      <name>Track-111</name>
+      <cmt>Track-11</cmt>
+      <desc>Track-11</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.86754179187119" lon="10.665688561275601">
+      <ele>277.2265625</ele>
+      <time>2021-08-31T11:12:06Z</time>
+      <name>Suental1</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>060012BC02010120D3620D24070032E2A195</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.867415979504585" lon="10.665450682863593">
+      <ele>278.78515625</ele>
+      <time>2021-08-31T11:11:59Z</time>
+      <name>Suental</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>060012BC02010120D3620D2407002CE29795</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.867365688085556" lon="10.665341801941395">
+      <ele>279.6796875</ele>
+      <time>2021-08-31T11:12:09Z</time>
+      <name>Laubwald55</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>90F012BC02010180D262032407002BE28F95</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.867329813539982" lon="10.665244404226542">
+      <ele>280.3671875</ele>
+      <time>2021-08-31T11:00:55Z</time>
+      <name>Track-121</name>
+      <cmt>Track-12</cmt>
+      <desc>Track-12</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.867227302864194" lon="10.665071401745081">
+      <ele>281.671875</ele>
+      <time>2021-08-31T11:12:14Z</time>
+      <name>Harz15</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>4F7012BC02010280D3620D24070023E28495</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.86697693541646" lon="10.66497509367764">
+      <ele>283.84375</ele>
+      <time>2021-08-31T11:12:18Z</time>
+      <name>Suenbach</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>4A0012BC02010680D3620D24070018E27F95</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.866936031728983" lon="10.664834026247263">
+      <ele>284.65625</ele>
+      <time>2021-08-31T11:00:55Z</time>
+      <name>Track-132</name>
+      <cmt>Track-13</cmt>
+      <desc>Track-13</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.866952460259199" lon="10.664685666561127">
+      <ele>284.53515625</ele>
+      <time>2021-08-31T11:12:21Z</time>
+      <name>Gasse810</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>070012BC02010220D2620D24070017E27295</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.866892781108618" lon="10.664356593042612">
+      <ele>285.21875</ele>
+      <time>2021-08-31T11:12:23Z</time>
+      <name>Harz16</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>4F7012BC02010280D3620D24070014E26395</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.866872077807784" lon="10.664124749600887">
+      <ele>285.5078125</ele>
+      <time>2021-08-31T11:12:27Z</time>
+      <name>Laubwald57</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>90F012BC02010180D2620324070015E25795</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.86686847358942" lon="10.663924170657992">
+      <ele>285.61328125</ele>
+      <time>2021-08-31T11:12:26Z</time>
+      <name>Laubwald56</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>90F012BC02010180D2620324070018E24F95</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.866879370063543" lon="10.663714958354831">
+      <ele>286.00390625</ele>
+      <time>2021-08-31T11:12:32Z</time>
+      <name>Suental2</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>060012BC02010120D2620D24070014E24595</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.866869898512959" lon="10.663527874276042">
+      <ele>286.51171875</ele>
+      <time>2021-08-31T11:12:30Z</time>
+      <name>Harz17</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>4F7012BC02010280D3620D24070013E23C95</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.866886913776398" lon="10.663258647546172">
+      <ele>287.6796875</ele>
+      <time>2021-08-31T11:12:35Z</time>
+      <name>Laubwald58</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>90F012BC02010180D2620324070010E22E95</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.866904934868217" lon="10.663135433569551">
+      <ele>288.41796875</ele>
+      <time>2021-08-31T11:12:41Z</time>
+      <name>Rohnberg, Westerberg Und Köhlerholz Bei Ilsenburg6</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>4F7812BC02010380D3620D24070010E22695</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.866948017850518" lon="10.663012303411961">
+      <ele>289.26171875</ele>
+      <time>2021-08-31T11:00:55Z</time>
+      <name>Track-14</name>
+      <cmt>Track-14</cmt>
+      <desc>Track-14</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.866977522149682" lon="10.662972992286086">
+      <ele>289.59375</ele>
+      <time>2021-08-31T11:13:06Z</time>
+      <name>Harz18</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>4F7012BC02010280D3620D24070018E22295</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.867145244032145" lon="10.66300836391747">
+      <ele>290.43359375</ele>
+      <time>2021-08-31T11:13:02Z</time>
+      <name>Industrie- Und Gewerbefläche1</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>894812BC02010380D2620324070020E22495</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.867279941216111" lon="10.662999730557203">
+      <ele>291.45703125</ele>
+      <time>2021-08-31T11:13:04Z</time>
+      <name>Industrie- Und Gewerbefläche2</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>894812BC02010380D2620324070026E22395</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.867378428578377" lon="10.662934351712465">
+      <ele>292.625</ele>
+      <time>2021-08-31T11:13:11Z</time>
+      <name>Industrie- Und Gewerbefläche3</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>894812BC02010380D262032407002BE22095</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.867444897070527" lon="10.662765288725495">
+      <ele>294.21875</ele>
+      <time>2021-08-31T11:13:00Z</time>
+      <name>Industrie- Und Gewerbefläche</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>894812BC02010380D2620324070029E22195</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.867924509570003" lon="10.663138115778565">
+      <ele>295.23828125</ele>
+      <time>2021-08-31T11:00:55Z</time>
+      <name>Track-15</name>
+      <cmt>Track-15</cmt>
+      <desc>Track-15</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.867971029132605" lon="10.663330228999257">
+      <ele>294.35546875</ele>
+      <time>2021-08-31T11:13:22Z</time>
+      <name>Industrie- Und Gewerbefläche5</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>894812BC02010380D2620324070046E23395</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.867902716621757" lon="10.663525108247995">
+      <ele>292.58984375</ele>
+      <time>2021-08-31T11:13:20Z</time>
+      <name>Industrie- Und Gewerbefläche4</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>894812BC02010380D2620324070045E24095</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.86795812100172" lon="10.663676653057337">
+      <ele>292.11328125</ele>
+      <time>2021-08-31T11:13:29Z</time>
+      <name>Industrie- Und Gewerbefläche6</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>894812BC02010380D2620324070046E24395</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.867956276983023" lon="10.663934564217925">
+      <ele>290.30859375</ele>
+      <time>2021-08-31T11:13:27Z</time>
+      <name>Geopark Harz-Braunschweiger Land-Ostfalen</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>8A3012BC02010A80525F0324070045E24F95</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.868047639727592" lon="10.664249639958143">
+      <ele>287.80078125</ele>
+      <time>2021-08-31T11:13:31Z</time>
+      <name>Geopark Harz-Braunschweiger Land-Ostfalen1</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>8A3012BC02010A80525F032407004AE25E95</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.868280908092856" lon="10.664645349606872">
+      <ele>286.0390625</ele>
+      <time>2021-08-31T11:13:33Z</time>
+      <name>Geopark Harz-Braunschweiger Land-Ostfalen2</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>8A3012BC02010A80525F0324070055E27095</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.868622051551938" lon="10.665413467213511">
+      <ele>282.23046875</ele>
+      <time>2021-08-31T11:13:38Z</time>
+      <name>Wirtschaftsweg9</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>0D0012BC02010320D3620D24070067E29295</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.868943329900503" lon="10.666052252054214">
+      <ele>278.99609375</ele>
+      <time>2021-08-31T11:13:51Z</time>
+      <name>Wohngebiet5</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>881012BC0201028008630324070073E2B295</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.869053719565272" lon="10.666167084127665">
+      <ele>278.7109375</ele>
+      <time>2021-08-31T11:13:46Z</time>
+      <name>Kastanienallee</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>060012BC02010120F2620D24070079E2B795</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.869420008733869" lon="10.666953977197409">
+      <ele>276.8984375</ele>
+      <time>2021-08-31T11:00:55Z</time>
+      <name>Track-16</name>
+      <cmt>Track-16</cmt>
+      <desc>Track-16</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.869231415912509" lon="10.667168889194727">
+      <ele>275.5078125</ele>
+      <time>2021-08-31T11:14:01Z</time>
+      <name>R1 Europa-Radweg</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>4E0012BC02010F8037900D24070081E2E695</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.868873592466116" lon="10.667799459770322">
+      <ele>271.8046875</ele>
+      <time>2021-08-31T11:13:58Z</time>
+      <name>Kastanienallee und An Der Ziegelhütte</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000012BC02010220D5620F2407006EE20396</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.868629259988666" lon="10.668086120858788">
+      <ele>270.6796875</ele>
+      <time>2021-08-31T11:00:55Z</time>
+      <name>Track-17</name>
+      <cmt>Track-17</cmt>
+      <desc>Track-17</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.867941105738282" lon="10.668203551322222">
+      <ele>270.49609375</ele>
+      <time>2021-08-31T11:14:15Z</time>
+      <name>Harz-Rundweg</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>4E0012BC02011080E5900D24070045E21596</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.867788890376687" lon="10.668274965137243">
+      <ele>270.26171875</ele>
+      <time>2021-08-31T11:14:26Z</time>
+      <name>Wohngebiet1</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>881012BC020102800863032407003EE21996</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.867680009454489" lon="10.668476969003677">
+      <ele>269.25390625</ele>
+      <time>2021-08-31T11:00:55Z</time>
+      <name>Track-18</name>
+      <cmt>Track-18</cmt>
+      <desc>Track-18</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.867568278685212" lon="10.668631615117192">
+      <ele>268.69921875</ele>
+      <time>2021-08-31T11:14:38Z</time>
+      <name>Harz-Rundweg1</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>4E0012BC02011080E5900D24070033E22A96</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.867082715034485" lon="10.670154690742493">
+      <ele>264.07421875</ele>
+      <time>2021-08-31T11:14:33Z</time>
+      <name>Neue Strasse und Kastanienallee</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000012BC02010120F0620F2407001DE27196</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.866869563236833" lon="10.67085525020957">
+      <ele>262.0625</ele>
+      <time>2021-08-31T11:14:43Z</time>
+      <name>R1 Europa-Radweg1</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>4E0012BC02010F8037900D24070013E29196</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.866860007867217" lon="10.671288510784507">
+      <ele>261.078125</ele>
+      <time>2021-08-31T11:00:55Z</time>
+      <name>Track-19</name>
+      <cmt>Track-19</cmt>
+      <desc>Track-19</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.866871742531657" lon="10.672742268070579">
+      <ele>257.08984375</ele>
+      <time>2021-08-31T11:14:50Z</time>
+      <name>Wohngebiet2</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>881012BC0201028008630324070013E2E996</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.866844920441508" lon="10.673525221645832">
+      <ele>255.50390625</ele>
+      <time>2021-08-31T11:14:54Z</time>
+      <name>Ottostrasse</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>060012BC02010220EA620D24070012E20E97</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.866527078673244" lon="10.674571869894862">
+      <ele>252.8671875</ele>
+      <time>2021-08-31T11:14:57Z</time>
+      <name>R1 Europa-Radweg2</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>4E0012BC02010F8037900D24070003E23F97</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.866514924913645" lon="10.674828356131911">
+      <ele>252.359375</ele>
+      <time>2021-08-31T11:15:02Z</time>
+      <name>Wohngebiet3</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>881012BC0201028008630324070002E24B97</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.866540908813477" lon="10.674951234832406">
+      <ele>252.1171875</ele>
+      <time>2021-08-31T11:15:05Z</time>
+      <name>Harzburger Strasse</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>060012BC0201012021630D24070004E25097</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.866540908813477" lon="10.675052404403687">
+      <ele>251.96875</ele>
+      <time>2021-08-31T11:15:06Z</time>
+      <name>Harzburger Strasse1</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000012BC020101201E630F24070004E25597</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.866492126137018" lon="10.675108563154936">
+      <ele>251.90234375</ele>
+      <time>2021-08-31T11:15:08Z</time>
+      <name>Harzburger Strasse2</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>060012BC0201012021630D24070001E25897</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.866435967385769" lon="10.675152987241745">
+      <ele>251.86328125</ele>
+      <time>2021-08-31T11:00:55Z</time>
+      <name>Track-20</name>
+      <cmt>Track-20</cmt>
+      <desc>Track-20</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.866347873583436" lon="10.675137732177973">
+      <ele>251.90234375</ele>
+      <time>2021-08-31T11:15:13Z</time>
+      <name>Park8</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>8A2012BC02010280216303240700FBE15997</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.866333456709981" lon="10.675430009141564">
+      <ele>251.60546875</ele>
+      <time>2021-08-31T11:15:14Z</time>
+      <name>Park12</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>8A2012BC02010280216303240700FAE16797</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.866482654586434" lon="10.675871735438704">
+      <ele>250.68359375</ele>
+      <time>2021-08-31T11:15:18Z</time>
+      <name>Park3</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>8A2012BC0201028021630324070001E27B97</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.866523558273911" lon="10.676003163680434">
+      <ele>250.375</ele>
+      <time>2021-08-31T11:15:21Z</time>
+      <name>Park4</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>8A2012BC0201028021630324070003E28197</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.866496568545699" lon="10.676152110099792">
+      <ele>250.12890625</ele>
+      <time>2021-08-31T11:15:25Z</time>
+      <name>Park5</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>8A2012BC0201028021630324070001E28897</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.866304371505976" lon="10.676556201651692">
+      <ele>249.6015625</ele>
+      <time>2021-08-31T11:15:23Z</time>
+      <name>Stadt16</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>881012BC02010180106303240700F8E19B97</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.866366984322667" lon="10.676868427544832">
+      <ele>248.6796875</ele>
+      <time>2021-08-31T11:15:31Z</time>
+      <name>Stadt18</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>881012BC02010180106303240700FBE1AA97</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.866480140015483" lon="10.67706037312746">
+      <ele>248.078125</ele>
+      <time>2021-08-31T11:15:29Z</time>
+      <name>Stadt17</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>881012BC0201018010630324070001E2B397</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.866673175245523" lon="10.677484413608909">
+      <ele>246.8515625</ele>
+      <time>2021-08-31T11:15:34Z</time>
+      <name>Stadt19</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>881012BC020101801063032407000AE2C697</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.866671079769731" lon="10.677790688350797">
+      <ele>246.1171875</ele>
+      <time>2021-08-31T11:15:39Z</time>
+      <name>Stadt212</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>881012BC020101801063032407000AE2D597</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.866590278223157" lon="10.678120264783502">
+      <ele>245.51953125</ele>
+      <time>2021-08-31T11:15:37Z</time>
+      <name>Stadt20</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>881012BC0201018010630324070006E2E497</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.866736961528659" lon="10.678395023569465">
+      <ele>244.94921875</ele>
+      <time>2021-08-31T11:00:55Z</time>
+      <name>Track-212</name>
+      <cmt>Track-21</cmt>
+      <desc>Track-21</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.866268664598465" lon="10.678971698507667">
+      <ele>244.35546875</ele>
+      <time>2021-08-31T11:15:52Z</time>
+      <name>Faktoreistrasse</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>030012BC0201042024630D240700F7E10D98</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.866150060668588" lon="10.679126428440213">
+      <ele>244.125</ele>
+      <time>2021-08-31T11:15:55Z</time>
+      <name>Stadt22</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>881012BC02010180106303240700F1E11398</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.866006730124354" lon="10.679407473653555">
+      <ele>244.0390625</ele>
+      <time>2021-08-31T11:15:49Z</time>
+      <name>Unterirdischer Wasserlauf1</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>4E6812BC0201048024630D240700EBE12098</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.865704813972116" lon="10.680309869349003">
+      <ele>243.43359375</ele>
+      <time>2021-08-31T11:16:03Z</time>
+      <name>Faktoreistrasse1</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>030012BC0201062025630D240700DDE14A98</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.865510018542409" lon="10.680641960352659">
+      <ele>243.296875</ele>
+      <time>2021-08-31T11:00:55Z</time>
+      <name>Track-22</name>
+      <cmt>Track-22</cmt>
+      <desc>Track-22</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.865257723256946" lon="10.680799959227443">
+      <ele>243.52734375</ele>
+      <time>2021-08-31T11:16:13Z</time>
+      <name>Wernigeröder Strasse</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>030012BC0201042025630D240700C8E16198</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.865183208137751" lon="10.680736089125276">
+      <ele>243.66796875</ele>
+      <time>2021-08-31T11:16:22Z</time>
+      <name>Stadt23</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>881012BC02010180106303240700C4E15E98</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.865052198991179" lon="10.680839354172349">
+      <ele>243.796875</ele>
+      <time>2021-08-31T11:16:19Z</time>
+      <name>Marienhöfer Strasse</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>060012BC020101202C630D240700BEE16398</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.864786660298705" lon="10.680527044460177">
+      <ele>244.08203125</ele>
+      <time>2021-08-31T11:00:55Z</time>
+      <name>Track-23</name>
+      <cmt>Track-23</cmt>
+      <desc>Track-23</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.86464861035347" lon="10.680372901260853">
+      <ele>244.35546875</ele>
+      <time>2021-08-31T11:16:36Z</time>
+      <name>Marienhöfer Strasse1</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>060012BC020101202C630D240700ACE14C98</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.864291122183204" lon="10.68004047498107">
+      <ele>245.25</ele>
+      <time>2021-08-31T11:16:31Z</time>
+      <name>Stadt24</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>881012BC020101801063032407009BE13D98</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.864167405292392" lon="10.679892115294933">
+      <ele>245.68359375</ele>
+      <time>2021-08-31T11:16:43Z</time>
+      <name>Marienhöfer Strasse2</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>060012BC020101202C630D24070096E13698</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.863914774730802" lon="10.679150065407157">
+      <ele>246.59375</ele>
+      <time>2021-08-31T11:00:55Z</time>
+      <name>Track-24</name>
+      <cmt>Track-24</cmt>
+      <desc>Track-24</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.863774880766869" lon="10.678700041025877">
+      <ele>247.453125</ele>
+      <time>2021-08-31T11:16:56Z</time>
+      <name>Stadt25</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>881012BC020101804C630324070083E1FF97</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.863826597109437" lon="10.678560985252261">
+      <ele>247.4765625</ele>
+      <time>2021-08-31T11:17:02Z</time>
+      <name>Stadt26</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>881012BC020101804C630324070085E1F997</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.863853083923459" lon="10.678337020799518">
+      <ele>247.6328125</ele>
+      <time>2021-08-31T11:17:23Z</time>
+      <name>Harz-Rundweg3</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>4E0012BC02011080E5900D24070086E1EE97</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.864286344498396" lon="10.677354242652655">
+      <ele>250.2890625</ele>
+      <time>2021-08-31T11:17:20Z</time>
+      <name>Harz-Rundweg2</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>4E0012BC02011080E5900D2407009AE1C097</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.864151814952493" lon="10.67715123295784">
+      <ele>250.85546875</ele>
+      <time>2021-08-31T11:17:17Z</time>
+      <name>Stadt27</name>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ShapingPoint />
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>881012BC0201018010630324070094E1B797</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="51.863970346748829" lon="10.67711116746068">
+      <ele>250.83984375</ele>
+      <time>2021-08-31T11:00:55Z</time>
+      <name>Track-25</name>
+      <cmt>Track-25</cmt>
+      <desc>Track-25</desc>
+      <sym>Waypoint</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>FasterTime</trp:CalculationMode>
+          <trp:ElevationMode>Standard</trp:ElevationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+  </rte>
+
+</gpx>

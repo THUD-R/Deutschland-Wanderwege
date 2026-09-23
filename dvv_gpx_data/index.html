@@ -1,0 +1,981 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Wanderwege Viewer</title>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.0/chart.umd.min.js"></script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bitter:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+
+<style>
+  :root {
+    --forest: #2c4a3b;
+    --forest-dark: #1e352a;
+    --forest-darker: #172a21;
+    --ochre: #bf9440;
+    --paper: #f6f3ea;
+    --paper-panel: #efe9d8;
+    --ink: #262a24;
+    --sage: #7d9382;
+    --line: #d8d0ba;
+    --route-muted: #3d7fb0;
+    --route-active: #d1352b;
+  }
+
+  * { box-sizing: border-box; }
+
+  html, body {
+    height: 100%;
+    margin: 0;
+    background: var(--paper);
+    color: var(--ink);
+    font-family: 'IBM Plex Sans', -apple-system, sans-serif;
+  }
+
+  h1, h2, h3 { font-family: 'Bitter', Georgia, serif; margin: 0; }
+
+  #app {
+    display: grid;
+    grid-template-columns: 360px 1fr;
+    grid-template-rows: 100vh;
+  }
+
+  /* --- Sidebar --- */
+  #sidebar {
+    background: var(--forest);
+    color: var(--paper);
+    display: flex;
+    flex-direction: column;
+    min-height: 0;
+  }
+
+  #sidebar-header { padding: 24px 22px 16px; }
+
+  #sidebar h1 { font-size: 21px; line-height: 1.25; color: var(--paper); }
+  #sidebar .subtitle { color: var(--sage); font-size: 13px; margin-top: 6px; }
+
+  #address-section {
+    padding: 0 22px 16px;
+    border-bottom: 1px solid rgba(246,243,234,0.15);
+  }
+
+  #region-section {
+    padding: 0 22px 16px;
+    border-bottom: 1px solid rgba(246,243,234,0.15);
+  }
+  #region-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    max-height: 160px;
+    overflow-y: auto;
+  }
+  .region-chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 12.5px;
+    padding: 5px 10px 5px 8px;
+    border-radius: 20px;
+    border: 1px solid rgba(246,243,234,0.3);
+    cursor: pointer;
+    user-select: none;
+  }
+  .region-chip input { margin: 0; accent-color: var(--ochre); }
+  .region-chip.checked { background: rgba(191,148,64,0.2); border-color: var(--ochre); }
+  .region-chip .count { color: var(--sage); font-size: 11px; }
+  .region-actions { display: flex; gap: 10px; margin-top: 8px; }
+  .text-link-btn {
+    background: none; border: none; padding: 0; cursor: pointer;
+    font-family: inherit; font-size: 11.5px; color: var(--sage); text-decoration: underline;
+  }
+  .text-link-btn:hover { color: var(--ochre); }
+
+  label.field-label {
+    display: block;
+    font-size: 11.5px;
+    color: var(--sage);
+    margin-bottom: 6px;
+  }
+
+  .address-row { display: flex; gap: 8px; }
+
+  input[type="text"] {
+    flex: 1;
+    min-width: 0;
+    font-family: inherit;
+    font-size: 14px;
+    padding: 9px 10px;
+    border-radius: 3px;
+    border: 1px solid var(--forest-dark);
+    background: var(--paper);
+    color: var(--ink);
+  }
+
+  button.primary-btn {
+    font-family: inherit;
+    font-size: 13.5px;
+    font-weight: 600;
+    padding: 9px 14px;
+    border-radius: 3px;
+    border: none;
+    background: var(--ochre);
+    color: var(--forest-darker);
+    cursor: pointer;
+  }
+  button.primary-btn:hover { filter: brightness(1.08); }
+  button.primary-btn:disabled { opacity: 0.6; cursor: default; }
+
+  input[type="text"]:focus, button:focus, input[type="file"]:focus {
+    outline: 2px solid var(--ochre);
+    outline-offset: 1px;
+  }
+
+  #address-status {
+    font-size: 12.5px;
+    color: var(--sage);
+    margin-top: 8px;
+    line-height: 1.5;
+    min-height: 1em;
+  }
+  #address-status.error { color: #e8a79c; }
+
+  #global-status {
+    margin: 14px 22px 0;
+    font-size: 13px;
+    padding: 10px 12px;
+    border-radius: 3px;
+    background: rgba(191,148,64,0.15);
+    border: 1px solid rgba(191,148,64,0.4);
+    line-height: 1.5;
+    display: none;
+  }
+  #global-status.visible { display: block; }
+  #global-status.error { background: rgba(209,53,43,0.2); border-color: rgba(209,53,43,0.5); }
+
+  /* --- Route list --- */
+  #route-list {
+    flex: 1;
+    overflow-y: auto;
+    padding: 10px 12px 16px;
+  }
+
+  .route-item {
+    border-radius: 4px;
+    margin-bottom: 4px;
+    overflow: hidden;
+  }
+  .route-item.expanded { background: var(--forest-dark); }
+
+  .route-item-header {
+    width: 100%;
+    text-align: left;
+    background: none;
+    border: none;
+    color: var(--paper);
+    padding: 11px 12px;
+    cursor: pointer;
+    font-family: inherit;
+    border-radius: 4px;
+  }
+  .route-item-header:hover { background: rgba(246,243,234,0.06); }
+  .route-item.expanded .route-item-header { border-radius: 4px 4px 0 0; }
+
+  .route-item-title { font-size: 14px; font-weight: 500; line-height: 1.35; }
+  .route-item-title-en { font-size: 12px; font-style: italic; color: var(--sage); margin-top: 1px; }
+  .route-item.expanded .route-item-title-en { color: #c9d9cf; }
+  .route-item-sub { font-size: 12px; color: var(--sage); margin-top: 3px; }
+  .route-item.expanded .route-item-sub { color: var(--ochre); }
+
+  .route-detail { padding: 4px 14px 16px; }
+
+  .chip-row { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 12px; }
+  .chip {
+    font-family: inherit;
+    font-size: 12.5px;
+    padding: 5px 11px;
+    border-radius: 20px;
+    border: 1px solid rgba(246,243,234,0.3);
+    background: transparent;
+    color: var(--paper);
+    cursor: pointer;
+  }
+  .chip.active { background: var(--route-active); border-color: var(--route-active); color: var(--paper); }
+  .chip:hover:not(.active) { border-color: var(--ochre); }
+
+  .detail-meta { display: flex; flex-direction: column; gap: 6px; margin-bottom: 12px; }
+  .meta-row { font-size: 13px; color: var(--sage); display: flex; justify-content: space-between; gap: 10px; }
+  .meta-row span:last-child { color: var(--paper); text-align: right; }
+  .meta-row.address span:last-child { white-space: pre-line; max-width: 62%; }
+
+  .info-note {
+    font-size: 12.5px;
+    line-height: 1.55;
+    color: var(--paper);
+    background: rgba(191,148,64,0.12);
+    border: 1px solid rgba(191,148,64,0.3);
+    border-radius: 3px;
+    padding: 9px 11px;
+    margin-bottom: 10px;
+  }
+  .info-note-label {
+    font-size: 10.5px;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    color: var(--ochre);
+    margin-bottom: 4px;
+  }
+
+  .stat-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+  .stat-box { background: var(--forest-darker); border-radius: 3px; padding: 9px 11px; }
+  .stat-box .stat-value { font-family: 'Bitter', serif; font-size: 18px; color: var(--ochre); }
+  .stat-box .stat-value.drive { color: var(--route-muted); }
+  .stat-box .stat-label { font-size: 10.5px; color: var(--sage); margin-top: 2px; }
+
+  .loading-note, .error-note { font-size: 13px; color: var(--sage); padding: 4px 0; }
+  .error-note { color: #e8a79c; }
+
+  /* --- Upload fallback --- */
+  #upload-section {
+    padding: 14px 22px 20px;
+    border-top: 1px solid rgba(246,243,234,0.15);
+  }
+  #upload-fallback {
+    font-size: 12px;
+    color: var(--sage);
+    line-height: 1.5;
+    margin-top: 6px;
+  }
+  input[type="file"] {
+    width: 100%;
+    font-size: 12.5px;
+    color: var(--paper);
+  }
+
+  ::-webkit-scrollbar { width: 8px; }
+  ::-webkit-scrollbar-thumb { background: rgba(246,243,234,0.25); border-radius: 4px; }
+
+  /* --- Main area --- */
+  #main { display: grid; grid-template-rows: 1fr 220px; height: 100vh; }
+  #map { width: 100%; height: 100%; background: #e5e0d0; }
+
+  #elevation-panel {
+    background: var(--paper-panel);
+    border-top: 1px solid var(--line);
+    padding: 14px 20px 8px;
+    position: relative;
+  }
+  #elevation-panel .panel-heading { font-size: 12px; color: var(--sage); margin-bottom: 4px; }
+  #elevation-empty { display: flex; align-items: center; justify-content: center; height: 100%; color: var(--sage); font-size: 14px; text-align: center; padding: 0 20px; }
+  #elevation-canvas-wrap { height: calc(100% - 20px); display: none; }
+  #elevation-canvas-wrap.visible { display: block; }
+
+  @media (max-width: 780px) {
+    #app { grid-template-columns: 1fr; grid-template-rows: auto 1fr; }
+    #sidebar { max-height: 55vh; }
+    #main { grid-template-rows: 1fr 180px; }
+  }
+</style>
+</head>
+<body>
+
+<div id="app">
+  <aside id="sidebar">
+    <div id="sidebar-header">
+      <h1>Deutschland Wanderwege</h1>
+      <div class="subtitle">DVV / IVV permanent route viewer</div>
+    </div>
+
+    <div id="region-section">
+      <label class="field-label">Regions to show</label>
+      <div id="region-list"><div class="loading-note">Loading manifest.json…</div></div>
+    </div>
+
+    <div id="address-section">
+      <label class="field-label" for="address-input">Find routes near an address</label>
+      <div class="address-row">
+        <input type="text" id="address-input" placeholder="e.g. Wiesbaden, Germany" />
+        <button type="button" class="primary-btn" id="locate-btn">Locate</button>
+      </div>
+      <div id="address-status"></div>
+    </div>
+
+    <div id="global-status"></div>
+
+    <div id="route-list">
+      <div class="loading-note">Check a region above to see its routes.</div>
+    </div>
+
+    <div id="upload-section">
+      <label class="field-label" for="file-input">Or open a GPX file directly</label>
+      <input type="file" id="file-input" accept=".gpx" />
+      <div id="upload-fallback">Works without the manifest — useful for checking a single file on its own.</div>
+    </div>
+  </aside>
+
+  <div id="main">
+    <div id="map"></div>
+    <div id="elevation-panel">
+      <div class="panel-heading">Elevation profile</div>
+      <div id="elevation-empty">Select a route to see its elevation profile</div>
+      <div id="elevation-canvas-wrap"><canvas id="elevation-chart"></canvas></div>
+    </div>
+  </div>
+</div>
+
+<script>
+(function () {
+  const ROUTE_MUTED = '#111111';
+  const ROUTE_ACTIVE = '#d1352b';
+  const HOME_COLOR = '#bf9440';
+
+  // ---------- Map setup ----------
+  const map = L.map('map', { zoomControl: true }).setView([51.0, 10.4], 6); // all of Germany
+  L.tileLayer('https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png', {
+    maxZoom: 17,
+    attribution: 'Map data: © OpenStreetMap contributors, SRTM | Map style: © OpenTopoMap (CC-BY-SA)'
+  }).addTo(map);
+
+  let routeGroups = [];
+  let groupsByKey = new Map();
+  let selectedGroupKey = null;
+  let homeMarker = null;
+  let homeLatLng = null;
+  let uploadedLayer = null;
+  let chart = null;
+  let regionsList = []; // [{ slug, label, count }]
+  let selectedRegions = new Set();
+
+  // ---------- Status helpers ----------
+  const globalStatusEl = document.getElementById('global-status');
+  function showGlobalStatus(msg, isError) {
+    globalStatusEl.textContent = msg;
+    globalStatusEl.classList.add('visible');
+    globalStatusEl.classList.toggle('error', !!isError);
+  }
+  function hideGlobalStatus() { globalStatusEl.classList.remove('visible'); }
+
+  const addressStatusEl = document.getElementById('address-status');
+  function showAddressStatus(msg, isError) {
+    addressStatusEl.textContent = msg;
+    addressStatusEl.classList.toggle('error', !!isError);
+  }
+
+  function escapeHtml(str) {
+    return String(str == null ? '' : str).replace(/[&<>"']/g, s => (
+      { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[s]
+    ));
+  }
+
+  // ---------- GPX parsing ----------
+  function haversineMeters(lat1, lon1, lat2, lon2) {
+    const R = 6371000;
+    const toRad = d => (d * Math.PI) / 180;
+    const dLat = toRad(lat2 - lat1);
+    const dLon = toRad(lon2 - lon1);
+    const a = Math.sin(dLat / 2) ** 2 + Math.cos(toRad(lat1)) * Math.cos(toRad(lat2)) * Math.sin(dLon / 2) ** 2;
+    return R * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+  }
+
+  function parseGpx(xmlText) {
+    const xml = new DOMParser().parseFromString(xmlText, 'application/xml');
+    if (xml.querySelector('parsererror')) throw new Error('Could not parse this file as GPX/XML.');
+    const trkpts = Array.from(xml.getElementsByTagName('trkpt'));
+    const source = trkpts.length ? trkpts : Array.from(xml.getElementsByTagName('rtept'));
+    if (!source.length) throw new Error('No track points found in this GPX file.');
+
+    const points = [];
+    let cumDist = 0;
+    source.forEach((pt, i) => {
+      const lat = parseFloat(pt.getAttribute('lat'));
+      const lon = parseFloat(pt.getAttribute('lon'));
+      const eleNode = pt.getElementsByTagName('ele')[0];
+      const ele = eleNode ? parseFloat(eleNode.textContent) : null;
+      if (i > 0) {
+        const prev = points[i - 1];
+        cumDist += haversineMeters(prev.lat, prev.lon, lat, lon);
+      }
+      points.push({ lat, lon, ele, dist: cumDist });
+    });
+    return points;
+  }
+
+  function computeStats(points) {
+    const totalDistKm = points.length ? points[points.length - 1].dist / 1000 : 0;
+    let gain = 0, loss = 0, maxEle = -Infinity, minEle = Infinity, hasEle = false;
+    for (let i = 0; i < points.length; i++) {
+      const ele = points[i].ele;
+      if (ele === null || Number.isNaN(ele)) continue;
+      hasEle = true;
+      if (ele > maxEle) maxEle = ele;
+      if (ele < minEle) minEle = ele;
+      if (i > 0 && points[i - 1].ele !== null) {
+        const diff = ele - points[i - 1].ele;
+        if (diff > 0) gain += diff; else loss += -diff;
+      }
+    }
+    return { totalDistKm, gain: hasEle ? gain : null, loss: hasEle ? loss : null, maxEle: hasEle ? maxEle : null, hasEle };
+  }
+
+  function fmtKm(km) { return km.toFixed(1) + ' km'; }
+  function fmtM(m) { return m === null ? '—' : Math.round(m) + ' m'; }
+
+  function resolveGpxPath(rawPath) {
+    const normalized = (rawPath || '').replace(/\\/g, '/');
+    const idx = normalized.indexOf('gpx/');
+    return idx >= 0 ? normalized.slice(idx) : normalized;
+  }
+
+  // ---------- Route group data model ----------
+  function buildRouteGroups(manifest) {
+    const map_ = new Map();
+    manifest.forEach(entry => {
+      const key = entry.source_page || entry.title || JSON.stringify(entry);
+      if (!map_.has(key)) {
+        map_.set(key, {
+          key,
+          title: entry.title,
+          titleEn: entry.title_en,
+          code: entry.code,
+          operatorText: entry.operator,
+          startAddress: entry.start_address,
+          startHours: entry.start_hours,
+          accessibilityNotes: entry.accessibility_notes,
+          directions: entry.directions,
+          region: entry.region || null,
+          regionLabel: entry.region_label || 'Unknown region',
+          variants: [],
+          activeVariantIndex: 0,
+          startLatLng: null,
+          polyline: null,
+          marker: null,
+          travelTime: null
+        });
+      }
+      const group = map_.get(key);
+      const rawForLabel = entry.gpx_local_path || entry.gpx_source_url || '';
+      const m = rawForLabel.match(/(\d+)\s?km/i);
+      const numeric = m ? parseInt(m[1], 10) : null;
+      group.variants.push({
+        label: numeric !== null ? numeric + ' km' : (rawForLabel.split('/').pop() || 'Route file'),
+        numeric,
+        gpx_local_path: entry.gpx_local_path,
+        points: null,
+        stats: null,
+        loadError: null,
+        loadPromise: null
+      });
+    });
+
+    routeGroups = Array.from(map_.values());
+    routeGroups.forEach(g => g.variants.sort((a, b) => (a.numeric ?? 999) - (b.numeric ?? 999)));
+    groupsByKey = new Map(routeGroups.map(g => [g.key, g]));
+
+    const counts = new Map();
+    routeGroups.forEach(g => {
+      const key = g.region || 'unknown';
+      if (!counts.has(key)) counts.set(key, { slug: key, label: g.regionLabel, count: 0 });
+      counts.get(key).count++;
+    });
+    regionsList = Array.from(counts.values()).sort((a, b) => a.label.localeCompare(b.label));
+  }
+
+  // ---------- Region filter ----------
+  function renderRegionFilters() {
+    const container = document.getElementById('region-list');
+    container.innerHTML = '';
+    const existingActions = document.querySelector('#region-section .region-actions');
+    if (existingActions) existingActions.remove();
+
+    regionsList.forEach(r => {
+      const label = document.createElement('label');
+      label.className = 'region-chip' + (selectedRegions.has(r.slug) ? ' checked' : '');
+      const checkbox = document.createElement('input');
+      checkbox.type = 'checkbox';
+      checkbox.checked = selectedRegions.has(r.slug);
+      checkbox.addEventListener('change', () => setRegionEnabled(r.slug, checkbox.checked));
+      label.appendChild(checkbox);
+      label.appendChild(document.createTextNode(r.label + ' '));
+      const countSpan = document.createElement('span');
+      countSpan.className = 'count';
+      countSpan.textContent = '(' + r.count + ')';
+      label.appendChild(countSpan);
+      container.appendChild(label);
+    });
+
+    const actions = document.createElement('div');
+    actions.className = 'region-actions';
+    const selectAllBtn = document.createElement('button');
+    selectAllBtn.type = 'button';
+    selectAllBtn.className = 'text-link-btn';
+    selectAllBtn.textContent = 'Select all';
+    selectAllBtn.addEventListener('click', () => regionsList.forEach(r => setRegionEnabled(r.slug, true)));
+    const clearBtn = document.createElement('button');
+    clearBtn.type = 'button';
+    clearBtn.className = 'text-link-btn';
+    clearBtn.textContent = 'Clear all';
+    clearBtn.addEventListener('click', () => regionsList.forEach(r => setRegionEnabled(r.slug, false)));
+    actions.appendChild(selectAllBtn);
+    actions.appendChild(clearBtn);
+    document.getElementById('region-section').appendChild(actions);
+  }
+
+  async function setRegionEnabled(slug, enabled) {
+    if (enabled) selectedRegions.add(slug); else selectedRegions.delete(slug);
+    renderRegionFilters();
+    renderRouteList();
+
+    const groupsInRegion = routeGroups.filter(g => g.region === slug);
+
+    if (enabled) {
+      const tasks = groupsInRegion.map(async (group) => {
+        if (group.polyline) return; // already loaded/drawn
+        try {
+          await loadVariantPoints(group, group.activeVariantIndex);
+          renderGroupBaseLayer(group);
+        } catch (err) { /* left unrendered; shows error if selected */ }
+      });
+      await Promise.allSettled(tasks);
+      renderRouteList();
+      fitMapToAllLoadedGroups();
+    } else {
+      groupsInRegion.forEach(group => {
+        if (group.key === selectedGroupKey) deselectGroup();
+        if (group.polyline) { map.removeLayer(group.polyline); group.polyline = null; }
+        if (group.marker) { map.removeLayer(group.marker); group.marker = null; }
+      });
+      fitMapToAllLoadedGroups();
+    }
+  }
+
+  function distanceRangeLabel(group) {
+    const nums = group.variants.map(v => v.numeric).filter(n => n !== null);
+    if (!nums.length) return group.variants.length + ' file(s)';
+    const min = Math.min(...nums), max = Math.max(...nums);
+    return min === max ? min + ' km' : min + '–' + max + ' km';
+  }
+
+  async function loadVariantPoints(group, idx) {
+    const variant = group.variants[idx];
+    if (variant.points) return variant.points;
+    if (variant.loadPromise) return variant.loadPromise;
+
+    variant.loadPromise = (async () => {
+      const path = resolveGpxPath(variant.gpx_local_path);
+      const resp = await fetch(path);
+      if (!resp.ok) throw new Error('HTTP ' + resp.status + ' for ' + path);
+      const text = await resp.text();
+      const points = parseGpx(text);
+      variant.points = points;
+      variant.stats = computeStats(points);
+      if (!group.startLatLng) group.startLatLng = [points[0].lat, points[0].lon];
+      return points;
+    })();
+
+    try {
+      const result = await variant.loadPromise;
+      variant.loadError = null;
+      return result;
+    } catch (err) {
+      variant.loadError = err.message;
+      throw err;
+    } finally {
+      variant.loadPromise = null;
+    }
+  }
+
+  // ---------- Map rendering ----------
+  function renderGroupBaseLayer(group) {
+    const variant = group.variants[group.activeVariantIndex];
+    if (!variant || !variant.points) return;
+    const latlngs = variant.points.map(p => [p.lat, p.lon]);
+
+    group.polyline = L.polyline(latlngs, { color: ROUTE_MUTED, weight: 3, opacity: 0.55 }).addTo(map);
+    group.polyline.on('click', () => selectGroup(group.key));
+
+    group.marker = L.circleMarker(group.startLatLng, {
+      radius: 5, color: ROUTE_MUTED, fillColor: ROUTE_MUTED, fillOpacity: 0.9, weight: 1
+    }).addTo(map);
+    group.marker.on('click', () => selectGroup(group.key));
+    group.marker.bindTooltip(group.title || '', { direction: 'top', offset: [0, -6] });
+  }
+
+  function styleGroupAsActive(group) {
+    if (group.polyline) {
+      group.polyline.setStyle({ color: ROUTE_ACTIVE, weight: 5, opacity: 0.95 });
+      group.polyline.bringToFront();
+    }
+    if (group.marker) group.marker.setStyle({ radius: 8, color: ROUTE_ACTIVE, fillColor: ROUTE_ACTIVE, fillOpacity: 1, weight: 2 });
+  }
+
+  function styleGroupAsMuted(group) {
+    if (group.polyline) group.polyline.setStyle({ color: ROUTE_MUTED, weight: 3, opacity: 0.55 });
+    if (group.marker) group.marker.setStyle({ radius: 5, color: ROUTE_MUTED, fillColor: ROUTE_MUTED, fillOpacity: 0.9, weight: 1 });
+  }
+
+  function fitMapToAllLoadedGroups() {
+    const layers = routeGroups.filter(g => g.polyline).map(g => g.polyline);
+    if (!layers.length) return;
+    map.fitBounds(L.featureGroup(layers).getBounds(), { padding: [20, 20] });
+  }
+
+  // ---------- Elevation chart ----------
+  function clearElevationChart() {
+    document.getElementById('elevation-canvas-wrap').classList.remove('visible');
+    const empty = document.getElementById('elevation-empty');
+    empty.style.display = 'flex';
+    empty.textContent = 'Select a route to see its elevation profile';
+    if (chart) { chart.destroy(); chart = null; }
+  }
+
+  function renderElevationChart(points) {
+    const wrap = document.getElementById('elevation-canvas-wrap');
+    const empty = document.getElementById('elevation-empty');
+    const hasEle = points.some(p => p.ele !== null && !Number.isNaN(p.ele));
+
+    if (!hasEle) {
+      wrap.classList.remove('visible');
+      empty.style.display = 'flex';
+      empty.textContent = 'This GPX file has no elevation data to chart';
+      if (chart) { chart.destroy(); chart = null; }
+      return;
+    }
+
+    empty.style.display = 'none';
+    wrap.classList.add('visible');
+    const labels = points.map(p => (p.dist / 1000).toFixed(2));
+    const data = points.map(p => p.ele);
+
+    if (chart) chart.destroy();
+    const ctx = document.getElementById('elevation-chart').getContext('2d');
+    chart = new Chart(ctx, {
+      type: 'line',
+      data: { labels, datasets: [{ data, borderColor: ROUTE_ACTIVE, backgroundColor: 'rgba(209,53,43,0.12)', fill: true, pointRadius: 0, borderWidth: 2, tension: 0.15 }] },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        interaction: { mode: 'index', intersect: false },
+        plugins: {
+          legend: { display: false },
+          tooltip: { callbacks: { title: items => items[0].label + ' km', label: item => Math.round(item.raw) + ' m' } }
+        },
+        scales: {
+          x: { title: { display: true, text: 'Distance (km)', color: '#7d9382' }, ticks: { color: '#7d9382', maxTicksLimit: 8 }, grid: { color: '#d8d0ba' } },
+          y: { title: { display: true, text: 'Elevation (m)', color: '#7d9382' }, ticks: { color: '#7d9382' }, grid: { color: '#d8d0ba' } }
+        }
+      }
+    });
+  }
+
+  // ---------- Selection flow ----------
+  async function selectGroup(key, variantIndexOverride) {
+    if (uploadedLayer) { map.removeLayer(uploadedLayer); uploadedLayer = null; }
+
+    const group = groupsByKey.get(key);
+    if (!group) return;
+
+    if (selectedGroupKey && selectedGroupKey !== key) {
+      const prev = groupsByKey.get(selectedGroupKey);
+      if (prev) styleGroupAsMuted(prev);
+    }
+    selectedGroupKey = key;
+    if (variantIndexOverride !== undefined) group.activeVariantIndex = variantIndexOverride;
+
+    renderRouteList();
+
+    try {
+      await loadVariantPoints(group, group.activeVariantIndex);
+    } catch (err) {
+      renderRouteList();
+      return;
+    }
+
+    const variant = group.variants[group.activeVariantIndex];
+    const latlngs = variant.points.map(p => [p.lat, p.lon]);
+
+    if (!group.polyline) {
+      group.polyline = L.polyline(latlngs).addTo(map);
+      group.polyline.on('click', () => selectGroup(group.key));
+    } else {
+      group.polyline.setLatLngs(latlngs);
+    }
+    if (!group.marker && group.startLatLng) {
+      group.marker = L.circleMarker(group.startLatLng, {}).addTo(map);
+      group.marker.on('click', () => selectGroup(group.key));
+      group.marker.bindTooltip(group.title || '', { direction: 'top', offset: [0, -6] });
+    }
+    styleGroupAsActive(group);
+    map.fitBounds(group.polyline.getBounds(), { padding: [40, 40] });
+
+    renderElevationChart(variant.points);
+    renderRouteList();
+  }
+
+  function deselectGroup() {
+    if (selectedGroupKey) {
+      const prev = groupsByKey.get(selectedGroupKey);
+      if (prev) styleGroupAsMuted(prev);
+    }
+    selectedGroupKey = null;
+    renderRouteList();
+    clearElevationChart();
+  }
+
+  // ---------- List rendering ----------
+  function formatAddressBlocks(address) {
+    if (!address) return '';
+    const fragments = address.split(', ');
+    const postalPattern = /^\d{5}\b/;
+    const blocks = [];
+    let current = [];
+    fragments.forEach(frag => {
+      current.push(frag);
+      if (postalPattern.test(frag.trim())) {
+        blocks.push(current.join(', '));
+        current = [];
+      }
+    });
+    if (current.length) blocks.push(current.join(', '));
+    return blocks.join('\n');
+  }
+
+  function buildDetailPanel(group) {
+    const wrap = document.createElement('div');
+    wrap.className = 'route-detail';
+
+    const chipRow = document.createElement('div');
+    chipRow.className = 'chip-row';
+    group.variants.forEach((v, i) => {
+      const chip = document.createElement('button');
+      chip.type = 'button';
+      chip.className = 'chip' + (i === group.activeVariantIndex ? ' active' : '');
+      chip.textContent = v.label;
+      chip.addEventListener('click', (e) => { e.stopPropagation(); selectGroup(group.key, i); });
+      chipRow.appendChild(chip);
+    });
+    wrap.appendChild(chipRow);
+
+    const meta = document.createElement('div');
+    meta.className = 'detail-meta';
+    let metaHtml =
+      '<div class="meta-row"><span>Code</span><span>' + escapeHtml(group.code || '—') + '</span></div>' +
+      '<div class="meta-row"><span>Operator</span><span>' + escapeHtml(group.operatorText || '—') + '</span></div>' +
+      '<div class="meta-row address"><span>Start</span><span>' + (group.startAddress ? escapeHtml(formatAddressBlocks(group.startAddress)) : '—') + '</span></div>';
+    if (group.startHours) {
+      metaHtml += '<div class="meta-row address"><span>Hours</span><span>' + escapeHtml(group.startHours) + '</span></div>';
+    }
+    meta.innerHTML = metaHtml;
+    wrap.appendChild(meta);
+
+    if (group.accessibilityNotes) {
+      const note = document.createElement('div');
+      note.className = 'info-note';
+      note.innerHTML = '<div class="info-note-label">Trail notes</div>' + escapeHtml(group.accessibilityNotes);
+      wrap.appendChild(note);
+    }
+
+    if (group.directions) {
+      const note = document.createElement('div');
+      note.className = 'info-note';
+      note.innerHTML = '<div class="info-note-label">Getting there</div>' + escapeHtml(group.directions);
+      wrap.appendChild(note);
+    }
+
+    const variant = group.variants[group.activeVariantIndex];
+    const statGrid = document.createElement('div');
+    statGrid.className = 'stat-grid';
+
+    if (variant.loadError) {
+      statGrid.innerHTML = '<div class="error-note">Could not load this route: ' + escapeHtml(variant.loadError) + '</div>';
+    } else if (!variant.stats) {
+      statGrid.innerHTML = '<div class="loading-note">Loading route data…</div>';
+    } else {
+      let html =
+        '<div class="stat-box"><div class="stat-value">' + fmtKm(variant.stats.totalDistKm) + '</div><div class="stat-label">Distance</div></div>' +
+        '<div class="stat-box"><div class="stat-value">' + (variant.stats.hasEle ? '+' + fmtM(variant.stats.gain) : 'n/a') + '</div><div class="stat-label">Elevation gain</div></div>' +
+        '<div class="stat-box"><div class="stat-value">' + (variant.stats.hasEle ? '−' + fmtM(variant.stats.loss) : 'n/a') + '</div><div class="stat-label">Elevation loss</div></div>' +
+        '<div class="stat-box"><div class="stat-value">' + (variant.stats.hasEle ? fmtM(variant.stats.maxEle) : 'n/a') + '</div><div class="stat-label">Highest point</div></div>';
+      if (group.travelTime) {
+        html +=
+          '<div class="stat-box"><div class="stat-value drive">' + group.travelTime.minutes + ' min</div><div class="stat-label">Drive time</div></div>' +
+          '<div class="stat-box"><div class="stat-value drive">' + group.travelTime.km + ' km</div><div class="stat-label">Drive distance</div></div>';
+      }
+      statGrid.innerHTML = html;
+    }
+    wrap.appendChild(statGrid);
+    return wrap;
+  }
+
+  function renderRouteList() {
+    const container = document.getElementById('route-list');
+    container.innerHTML = '';
+
+    const visible = routeGroups.filter(g => selectedRegions.has(g.region));
+
+    if (!visible.length) {
+      container.innerHTML = '<div class="loading-note">' +
+        (selectedRegions.size ? 'No routes loaded for the selected region(s) yet.' : 'Check a region above to see its routes.') +
+        '</div>';
+      return;
+    }
+
+    const sorted = [...visible].sort((a, b) => {
+      if (a.travelTime && b.travelTime) return a.travelTime.minutes - b.travelTime.minutes;
+      if (a.travelTime) return -1;
+      if (b.travelTime) return 1;
+      return (a.title || '').localeCompare(b.title || '');
+    });
+
+    sorted.forEach(group => {
+      const item = document.createElement('div');
+      item.className = 'route-item' + (group.key === selectedGroupKey ? ' expanded' : '');
+
+      const header = document.createElement('button');
+      header.type = 'button';
+      header.className = 'route-item-header';
+      const sub = group.regionLabel + ' · ' + distanceRangeLabel(group) + (group.travelTime ? ' · ' + group.travelTime.minutes + ' min drive (' + group.travelTime.km + ' km)' : '');
+      header.innerHTML =
+        '<div class="route-item-title">' + escapeHtml(group.title || 'Untitled route') + '</div>' +
+        (group.titleEn ? '<div class="route-item-title-en">' + escapeHtml(group.titleEn) + '</div>' : '') +
+        '<div class="route-item-sub">' + escapeHtml(sub) + '</div>';
+      header.addEventListener('click', () => {
+        if (group.key === selectedGroupKey) deselectGroup(); else selectGroup(group.key);
+      });
+      item.appendChild(header);
+
+      if (group.key === selectedGroupKey) item.appendChild(buildDetailPanel(group));
+      container.appendChild(item);
+    });
+  }
+
+  // ---------- Initial load ----------
+  async function init() {
+    try {
+      const resp = await fetch('manifest.json');
+      if (!resp.ok) throw new Error('HTTP ' + resp.status);
+      const manifest = await resp.json();
+      if (!Array.isArray(manifest) || !manifest.length) throw new Error('manifest.json contained no routes.');
+
+      buildRouteGroups(manifest);
+      renderRegionFilters();
+      renderRouteList();
+      hideGlobalStatus();
+    } catch (err) {
+      document.getElementById('region-list').innerHTML = '<div class="error-note">Could not load manifest.json.</div>';
+      document.getElementById('route-list').innerHTML = '';
+      showGlobalStatus(
+        'Could not load manifest.json (' + err.message + '). Make sure this file sits next to manifest.json ' +
+        'and the gpx/ folder, served via a local web server (e.g. "python -m http.server"), not opened directly. ' +
+        'You can still open individual GPX files below.',
+        true
+      );
+    }
+  }
+
+  // ---------- Address / drive-time ----------
+  async function geocodeAddress(address) {
+    const url = 'https://nominatim.openstreetmap.org/search?format=json&limit=1&q=' + encodeURIComponent(address);
+    const resp = await fetch(url);
+    if (!resp.ok) throw new Error('HTTP ' + resp.status);
+    const data = await resp.json();
+    if (!data.length) throw new Error('address not found');
+    return { lat: parseFloat(data[0].lat), lon: parseFloat(data[0].lon), display: data[0].display_name };
+  }
+
+  async function fetchDriveTime(fromLatLng, toLatLng) {
+    const url = 'https://router.project-osrm.org/route/v1/driving/' +
+      fromLatLng[1] + ',' + fromLatLng[0] + ';' + toLatLng[1] + ',' + toLatLng[0] + '?overview=false';
+    const resp = await fetch(url);
+    if (!resp.ok) throw new Error('routing HTTP ' + resp.status);
+    const data = await resp.json();
+    if (!data.routes || !data.routes.length) throw new Error('no route found');
+    return { seconds: data.routes[0].duration, meters: data.routes[0].distance };
+  }
+
+  function placeHomeMarker(latlng, label) {
+    if (homeMarker) map.removeLayer(homeMarker);
+    homeLatLng = latlng;
+    homeMarker = L.circleMarker(latlng, { radius: 8, color: HOME_COLOR, fillColor: HOME_COLOR, fillOpacity: 1, weight: 2 }).addTo(map);
+    homeMarker.bindTooltip(label, { direction: 'top', offset: [0, -8] });
+  }
+
+  async function handleLocate() {
+    const address = document.getElementById('address-input').value.trim();
+    if (!address) { showAddressStatus('Enter an address first.', true); return; }
+
+    const btn = document.getElementById('locate-btn');
+    btn.disabled = true;
+    showAddressStatus('Locating address…');
+
+    try {
+      const geo = await geocodeAddress(address);
+      placeHomeMarker([geo.lat, geo.lon], 'Your location');
+
+      const visibleGroups = routeGroups.filter(g => selectedRegions.has(g.region) && g.startLatLng);
+      if (!visibleGroups.length) {
+        showAddressStatus('Located. Check at least one region above to calculate drive times to its routes.');
+        return;
+      }
+      showAddressStatus('Located. Calculating drive times to ' + visibleGroups.length + ' routes…');
+
+      let done = 0;
+      for (const group of visibleGroups) {
+        try {
+          const result = await fetchDriveTime([geo.lat, geo.lon], group.startLatLng);
+          group.travelTime = { minutes: Math.round(result.seconds / 60), km: (result.meters / 1000).toFixed(1) };
+        } catch (err) {
+          group.travelTime = null;
+        }
+        done++;
+        showAddressStatus('Calculating drive times… (' + done + '/' + visibleGroups.length + ')');
+        await new Promise(r => setTimeout(r, 250)); // polite delay for the public routing service
+      }
+
+      renderRouteList();
+      showAddressStatus('Drive times updated — list sorted nearest first.');
+    } catch (err) {
+      showAddressStatus('Could not locate that address: ' + err.message, true);
+    } finally {
+      btn.disabled = false;
+    }
+  }
+
+  document.getElementById('locate-btn').addEventListener('click', handleLocate);
+  document.getElementById('address-input').addEventListener('keydown', (e) => {
+    if (e.key === 'Enter') handleLocate();
+  });
+
+  // ---------- Manual upload fallback ----------
+  document.getElementById('file-input').addEventListener('change', (e) => {
+    const file = e.target.files[0];
+    if (!file) return;
+    deselectGroup();
+    const reader = new FileReader();
+    reader.onload = () => {
+      try {
+        const points = parseGpx(reader.result);
+        if (uploadedLayer) map.removeLayer(uploadedLayer);
+        const latlngs = points.map(p => [p.lat, p.lon]);
+        uploadedLayer = L.polyline(latlngs, { color: ROUTE_ACTIVE, weight: 5, opacity: 0.95 }).addTo(map);
+        map.fitBounds(uploadedLayer.getBounds(), { padding: [40, 40] });
+        renderElevationChart(points);
+        hideGlobalStatus();
+      } catch (err) {
+        showGlobalStatus('Could not read this GPX file: ' + err.message, true);
+      }
+    };
+    reader.onerror = () => showGlobalStatus('Could not read the selected file.', true);
+    reader.readAsText(file);
+  });
+
+  init();
+})();
+</script>
+
+</body>
+</html>

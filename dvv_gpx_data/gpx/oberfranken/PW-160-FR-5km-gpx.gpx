@@ -1,0 +1,807 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1"
+creator="ViewRanger/10.5.11 http://www.viewranger.com"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns="http://www.topografix.com/GPX/1/1"
+xmlns:gpxtpx="http://www.garmin.com/xmlschemas/TrackPointExtension/v1"
+xmlns:viewranger="http://www.viewranger.com/xmlschemas/GpxExtensions/v3"
+xmlns:gpx_style="http://www.topografix.com/GPX/gpx_style/0/2"
+xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.topografix.com/GPX/gpx_style/0/2
+http://www.topografix.com/GPX/gpx_style/0/2/gpx_style.xsd http://www.viewranger.com/xmlschemas/GpxExtensions/v3 http://www.viewranger.com/xmlschemas/GpxExtensions/v3/GpxExtensionsV3.xsd http://www.garmin.com/xmlschemas/TrackPointExtension/v1 http://www.garmin.com/xmlschemas/TrackPointExtensionv1.xsd">
+<metadata><author><email id="jochen-pils" domain="gmx.de" /></author></metadata>
+<rte>
+<name><![CDATA[PW Hummendorf 05 km]]></name>
+<type><![CDATA[Route]]></type>
+<extensions><gpx_style:line><gpx_style:color>0000ff</gpx_style:color></gpx_style:line>
+</extensions>
+<rtept lat="50.204356" lon="11.304636">
+<name><![CDATA[Start]]></name>
+</rtept>
+<rtept lat="50.204368" lon="11.304697">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.204305" lon="11.304727">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.204152" lon="11.304769">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.204055" lon="11.304804">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.203994" lon="11.304839">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.203954" lon="11.304883">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.203919" lon="11.304955">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.203751" lon="11.304771">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.203732" lon="11.304754">
+<name><![CDATA[WP2]]></name>
+</rtept>
+<rtept lat="50.203732" lon="11.304754">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.203718" lon="11.304741">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.203656" lon="11.304684">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.203533" lon="11.304602">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.203426" lon="11.304559">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.203044" lon="11.304466">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.203029" lon="11.304520">
+<name><![CDATA[WP3]]></name>
+</rtept>
+<rtept lat="50.203029" lon="11.304520">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.203044" lon="11.304466">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.202937" lon="11.304439">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.202864" lon="11.304421">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.202736" lon="11.304397">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.202732" lon="11.304462">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.202709" lon="11.304766">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.202653" lon="11.304951">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.202484" lon="11.305145">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.202254" lon="11.305328">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.201997" lon="11.305731">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.201929" lon="11.306033">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.201915" lon="11.306055">
+<name><![CDATA[WP4]]></name>
+</rtept>
+<rtept lat="50.201915" lon="11.306055">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.201929" lon="11.306033">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.201960" lon="11.306585">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.201991" lon="11.307136">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.202025" lon="11.307674">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.202058" lon="11.308212">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.202004" lon="11.308770">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.201949" lon="11.309328">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.201895" lon="11.309886">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.201744" lon="11.310503">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.201594" lon="11.311120">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.201582" lon="11.311223">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.201429" lon="11.311182">
+<name><![CDATA[WP5]]></name>
+</rtept>
+<rtept lat="50.201582" lon="11.311223">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.201525" lon="11.311746">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.201477" lon="11.312408">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.201430" lon="11.313070">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.201383" lon="11.313733">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.201336" lon="11.314354">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.201288" lon="11.314976">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.201241" lon="11.315598">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.201193" lon="11.316220">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.201171" lon="11.316894">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.201149" lon="11.317569">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.201127" lon="11.318243">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.201105" lon="11.318917">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.201132" lon="11.319355">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.201213" lon="11.319789">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.201294" lon="11.320222">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.201496" lon="11.320821">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.201697" lon="11.321421">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.201901" lon="11.321984">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.202105" lon="11.322548">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.202396" lon="11.322951">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.202687" lon="11.323354">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.202967" lon="11.323517">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.203206" lon="11.324103">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.203262" lon="11.324297">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.203332" lon="11.324491">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.203384" lon="11.324409">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.203409" lon="11.324369">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.203438" lon="11.324340">
+<name><![CDATA[WP6]]></name>
+</rtept>
+<rtept lat="50.203438" lon="11.324340">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.203485" lon="11.324294">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.203565" lon="11.324183">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.203838" lon="11.323889">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.203801" lon="11.323756">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.203930" lon="11.323676">
+<name><![CDATA[WP7]]></name>
+</rtept>
+<rtept lat="50.203930" lon="11.323676">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.203941" lon="11.323669">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.204003" lon="11.323652">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.204056" lon="11.323663">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.204092" lon="11.323687">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.204130" lon="11.323763">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.204278" lon="11.324221">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.204337" lon="11.324386">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.204391" lon="11.324484">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.204462" lon="11.324581">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.204536" lon="11.324754">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.204562" lon="11.324891">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.204563" lon="11.325044">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.204569" lon="11.325219">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.204578" lon="11.325332">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.204710" lon="11.325302">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.204775" lon="11.325268">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.204837" lon="11.325205">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.204902" lon="11.325129">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.204958" lon="11.325045">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.205001" lon="11.324965">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.205027" lon="11.324880">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.205042" lon="11.324756">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.205065" lon="11.324183">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.205108" lon="11.323570">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.205141" lon="11.323294">
+<name><![CDATA[WP8]]></name>
+</rtept>
+<rtept lat="50.205141" lon="11.323294">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.205168" lon="11.323070">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.205207" lon="11.322656">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.205250" lon="11.322406">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.205282" lon="11.322305">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.205342" lon="11.322188">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.205463" lon="11.322036">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.205666" lon="11.321824">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.205868" lon="11.321612">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.206162" lon="11.321292">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.206314" lon="11.321122">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.206400" lon="11.321025">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.206707" lon="11.320822">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.206766" lon="11.320781">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.206953" lon="11.320652">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.207194" lon="11.320448">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.207411" lon="11.320230">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.207611" lon="11.320006">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.207787" lon="11.319783">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.208098" lon="11.319326">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.208397" lon="11.318856">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.208510" lon="11.318680">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.208397" lon="11.318503">
+<name><![CDATA[WP9]]></name>
+</rtept>
+<rtept lat="50.208510" lon="11.318680">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.208588" lon="11.318558">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.208661" lon="11.318291">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.208743" lon="11.317836">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.208814" lon="11.317512">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.208913" lon="11.317250">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.209010" lon="11.317069">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.209141" lon="11.316917">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.209268" lon="11.316818">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.209424" lon="11.316725">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.209627" lon="11.316604">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.209750" lon="11.316543">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.209812" lon="11.316512">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.210095" lon="11.316481">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.210340" lon="11.316560">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.210633" lon="11.316759">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.210698" lon="11.316789">
+<name><![CDATA[WP10]]></name>
+</rtept>
+<rtept lat="50.210698" lon="11.316789">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.210878" lon="11.316871">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.211226" lon="11.317287">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.211275" lon="11.317230">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.211197" lon="11.317124">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.211149" lon="11.317049">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.211109" lon="11.316910">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.211133" lon="11.316784">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.211181" lon="11.316707">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.211253" lon="11.316616">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.211305" lon="11.316522">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.211351" lon="11.316426">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.211353" lon="11.316367">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.211396" lon="11.316321">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.211476" lon="11.316122">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.211653" lon="11.315889">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.211743" lon="11.315721">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.211820" lon="11.315482">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.211885" lon="11.315220">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.211915" lon="11.314978">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.211930" lon="11.314762">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.211931" lon="11.314534">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.211903" lon="11.314283">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.211941" lon="11.314195">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.211978" lon="11.314106">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.212120" lon="11.313757">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.212132" lon="11.313724">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.212130" lon="11.313698">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.212112" lon="11.313667">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.212074" lon="11.313595">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.212053" lon="11.313537">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.212040" lon="11.313465">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.212030" lon="11.313351">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.212026" lon="11.313209">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.212026" lon="11.313115">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.212036" lon="11.313034">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.212053" lon="11.312976">
+<name><![CDATA[WP11]]></name>
+</rtept>
+<rtept lat="50.212053" lon="11.312976">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.212062" lon="11.312946">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.212131" lon="11.312795">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.212218" lon="11.312590">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.212322" lon="11.312357">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.212392" lon="11.312221">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.212464" lon="11.312106">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.212610" lon="11.311893">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.212633" lon="11.311856">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.212694" lon="11.311756">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.212709" lon="11.311710">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.212862" lon="11.311686">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.212892" lon="11.311678">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.212905" lon="11.311674">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.212714" lon="11.311139">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.212467" lon="11.310718">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.212225" lon="11.310430">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.211838" lon="11.310081">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.211782" lon="11.309992">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.211695" lon="11.310085">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.211423" lon="11.309968">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.211152" lon="11.309852">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.210982" lon="11.309731">
+<name><![CDATA[WP12]]></name>
+</rtept>
+<rtept lat="50.210967" lon="11.309784">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.210808" lon="11.309678">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.210521" lon="11.309261">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.210233" lon="11.308843">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.209945" lon="11.308425">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.209856" lon="11.307900">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.209725" lon="11.307441">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.209594" lon="11.306982">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.209454" lon="11.306423">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.209314" lon="11.305864">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.209202" lon="11.305484">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.209085" lon="11.305163">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.208989" lon="11.304861">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.208914" lon="11.304496">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.208839" lon="11.304132">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.208670" lon="11.303630">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.208560" lon="11.303222">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.208449" lon="11.302813">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.208403" lon="11.302680">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.208237" lon="11.302358">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.208195" lon="11.302220">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.208181" lon="11.302135">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.208185" lon="11.302119">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.208200" lon="11.302081">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.208204" lon="11.302078">
+<name><![CDATA[WP13]]></name>
+</rtept>
+<rtept lat="50.208204" lon="11.302078">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.208278" lon="11.302013">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.208429" lon="11.302002">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.208409" lon="11.302104">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.208333" lon="11.302164">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.208249" lon="11.302188">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.208219" lon="11.302185">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.208103" lon="11.302190">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.207994" lon="11.302221">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.207828" lon="11.302289">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.207677" lon="11.302388">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.207542" lon="11.302502">
+<name><![CDATA[WP14]]></name>
+</rtept>
+<rtept lat="50.207542" lon="11.302502">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.207515" lon="11.302524">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.207293" lon="11.302745">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.207147" lon="11.302886">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.206987" lon="11.302994">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.206752" lon="11.303082">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.206552" lon="11.303135">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.206215" lon="11.303226">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.205773" lon="11.303339">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.205581" lon="11.303414">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.205500" lon="11.303452">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.205390" lon="11.303521">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.205286" lon="11.303601">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.205317" lon="11.303676">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.205161" lon="11.303796">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.205128" lon="11.303827">
+<name><![CDATA[WP15]]></name>
+</rtept>
+<rtept lat="50.205128" lon="11.303827">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.205045" lon="11.303909">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.204831" lon="11.304191">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.204599" lon="11.304520">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.204531" lon="11.304602">
+<sym><![CDATA[None]]></sym>
+</rtept>
+<rtept lat="50.204480" lon="11.304636">
+<name><![CDATA[Finish]]></name>
+</rtept>
+</rte>
+</gpx>

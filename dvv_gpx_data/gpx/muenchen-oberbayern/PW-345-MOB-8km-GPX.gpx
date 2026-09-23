@@ -1,0 +1,493 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<gpx version="1.1" creator="GORP (V2.2.1) - GPS Online Routen Planer auf GpsWandern.de - http://www.gpswandern.de" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:topografix="http://www.topografix.com/GPX/Private/TopoGrafix/0/1" xmlns="http://www.topografix.com/GPX/1/1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+ <metadata>
+  <time>2015-12-17T11:38:17Z</time>
+  <bounds minlat="48.0787741" minlon="11.8202101" maxlat="48.0958472" maxlon="11.8399779"/>
+ </metadata>
+ <rte>
+  <name>8,1 km</name>
+  <desc>Kulturgeschichtliche Wanderung</desc>
+  <extensions>
+   <gpxx:RouteExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+    <gpxx:DisplayColor>Green</gpxx:DisplayColor>
+   </gpxx:RouteExtension>
+  </extensions>
+  <rtept lat="48.087633" lon="11.8305365">
+   <name>7101</name>
+  </rtept>
+  <rtept lat="48.0876267" lon="11.8306961">
+   <name>7102</name>
+  </rtept>
+  <rtept lat="48.0877924" lon="11.830727">
+   <name>7103</name>
+  </rtept>
+  <rtept lat="48.08783" lon="11.8312286">
+   <name>7104</name>
+  </rtept>
+  <rtept lat="48.0885969" lon="11.8310837">
+   <name>7105</name>
+  </rtept>
+  <rtept lat="48.0887653" lon="11.8295602">
+   <name>7106</name>
+  </rtept>
+  <rtept lat="48.0888585" lon="11.8282567">
+   <name>7107</name>
+  </rtept>
+  <rtept lat="48.0891236" lon="11.8283265">
+   <name>7108</name>
+  </rtept>
+  <rtept lat="48.0893225" lon="11.8284444">
+   <name>7109</name>
+  </rtept>
+  <rtept lat="48.0896719" lon="11.8289486">
+   <name>7110</name>
+  </rtept>
+  <rtept lat="48.0898009" lon="11.8290828">
+   <name>7111</name>
+  </rtept>
+  <rtept lat="48.0899012" lon="11.829115">
+   <name>7112</name>
+  </rtept>
+  <rtept lat="48.0899729" lon="11.8290453">
+   <name>7113</name>
+   <cmt>500 m</cmt>
+  </rtept>
+  <rtept lat="48.0903563" lon="11.8269987">
+   <name>7114</name>
+  </rtept>
+  <rtept lat="48.0907468" lon="11.8247162">
+   <name>7115</name>
+  </rtept>
+  <rtept lat="48.0906752" lon="11.8245874">
+   <name>7116</name>
+  </rtept>
+  <rtept lat="48.0905963" lon="11.8246089">
+   <name>7117</name>
+  </rtept>
+  <rtept lat="48.0899944" lon="11.8246035">
+   <name>7118</name>
+  </rtept>
+  <rtept lat="48.090023" lon="11.8235414">
+   <name>7119</name>
+   <cmt>1000 m</cmt>
+  </rtept>
+  <rtept lat="48.0900445" lon="11.8224202">
+   <name>7120</name>
+  </rtept>
+  <rtept lat="48.089937" lon="11.8223853">
+   <name>7121</name>
+  </rtept>
+  <rtept lat="48.0899155" lon="11.8222861">
+   <name>7122</name>
+  </rtept>
+  <rtept lat="48.0893673" lon="11.8222217">
+   <name>7123</name>
+  </rtept>
+  <rtept lat="48.0892526" lon="11.8218891">
+   <name>7124</name>
+  </rtept>
+  <rtept lat="48.0892705" lon="11.8215029">
+   <name>7125</name>
+  </rtept>
+  <rtept lat="48.0893458" lon="11.8209718">
+   <name>7126</name>
+  </rtept>
+  <rtept lat="48.0879662" lon="11.8204407">
+   <name>7127</name>
+  </rtept>
+  <rtept lat="48.0874072" lon="11.8202583">
+   <name>7128</name>
+  </rtept>
+  <rtept lat="48.0869163" lon="11.8202101">
+   <name>7129</name>
+  </rtept>
+  <rtept lat="48.0868876" lon="11.8206929">
+   <name>7130</name>
+  </rtept>
+  <rtept lat="48.086798" lon="11.8210898">
+   <name>7131</name>
+  </rtept>
+  <rtept lat="48.0866619" lon="11.8214385">
+   <name>7132</name>
+  </rtept>
+  <rtept lat="48.0859523" lon="11.8209503">
+   <name>7133</name>
+  </rtept>
+  <rtept lat="48.0854112" lon="11.8209396">
+   <name>7134</name>
+  </rtept>
+  <rtept lat="48.0847877" lon="11.8211488">
+   <name>7135</name>
+  </rtept>
+  <rtept lat="48.0846909" lon="11.8206124">
+   <name>7136</name>
+  </rtept>
+  <rtept lat="48.0847053" lon="11.8203764">
+   <name>7137</name>
+  </rtept>
+  <rtept lat="48.0847375" lon="11.8202959">
+   <name>7138</name>
+  </rtept>
+  <rtept lat="48.0846802" lon="11.8203549">
+   <name>7139</name>
+  </rtept>
+  <rtept lat="48.0846658" lon="11.8206178">
+   <name>7140</name>
+  </rtept>
+  <rtept lat="48.0847554" lon="11.8211488">
+   <name>7141</name>
+  </rtept>
+  <rtept lat="48.0844508" lon="11.8213098">
+   <name>7142</name>
+  </rtept>
+  <rtept lat="48.0841713" lon="11.8214653">
+   <name>7143</name>
+  </rtept>
+  <rtept lat="48.0841247" lon="11.8216209">
+   <name>7144</name>
+  </rtept>
+  <rtept lat="48.0841355" lon="11.8218087">
+   <name>7145</name>
+  </rtept>
+  <rtept lat="48.0842179" lon="11.8219589">
+   <name>7146</name>
+  </rtept>
+  <rtept lat="48.0843146" lon="11.8225382">
+   <name>7147</name>
+  </rtept>
+  <rtept lat="48.0839885" lon="11.8225436">
+   <name>7148</name>
+  </rtept>
+  <rtept lat="48.0836409" lon="11.8228011">
+   <name>7149</name>
+  </rtept>
+  <rtept lat="48.0833058" lon="11.8231417">
+   <name>7150</name>
+  </rtept>
+  <rtept lat="48.0829994" lon="11.8235789">
+   <name>7151</name>
+  </rtept>
+  <rtept lat="48.0829206" lon="11.8240134">
+   <name>7152</name>
+  </rtept>
+  <rtept lat="48.0828597" lon="11.8244158">
+   <name>7153</name>
+  </rtept>
+  <rtept lat="48.0826626" lon="11.824228">
+   <name>7154</name>
+  </rtept>
+  <rtept lat="48.0824439" lon="11.8241583">
+   <name>7155</name>
+  </rtept>
+  <rtept lat="48.0816018" lon="11.8244426">
+   <name>7156</name>
+  </rtept>
+  <rtept lat="48.0802972" lon="11.8248288">
+   <name>7157</name>
+  </rtept>
+  <rtept lat="48.0793045" lon="11.8250756">
+   <name>7158</name>
+  </rtept>
+  <rtept lat="48.0792973" lon="11.8251614">
+   <name>7159</name>
+  </rtept>
+  <rtept lat="48.0792185" lon="11.8251614">
+   <name>7160</name>
+  </rtept>
+  <rtept lat="48.0792149" lon="11.8257408">
+   <name>7161</name>
+  </rtept>
+  <rtept lat="48.0790536" lon="11.8266152">
+   <name>7162</name>
+  </rtept>
+  <rtept lat="48.0787741" lon="11.8273876">
+   <name>7163</name>
+  </rtept>
+  <rtept lat="48.0790034" lon="11.827452">
+   <name>7164</name>
+  </rtept>
+  <rtept lat="48.0792149" lon="11.8274574">
+   <name>7165</name>
+  </rtept>
+  <rtept lat="48.0799496" lon="11.8273233">
+   <name>7166</name>
+  </rtept>
+  <rtept lat="48.0816806" lon="11.8270282">
+   <name>7167</name>
+  </rtept>
+  <rtept lat="48.0816268" lon="11.8274091">
+   <name>7168</name>
+  </rtept>
+  <rtept lat="48.0817272" lon="11.8281172">
+   <name>7169</name>
+  </rtept>
+  <rtept lat="48.081729" lon="11.8286805">
+   <name>7170</name>
+  </rtept>
+  <rtept lat="48.0817164" lon="11.8288897">
+   <name>7171</name>
+  </rtept>
+  <rtept lat="48.0816555" lon="11.829056">
+   <name>7172</name>
+  </rtept>
+  <rtept lat="48.0814871" lon="11.8294529">
+   <name>7173</name>
+  </rtept>
+  <rtept lat="48.0814763" lon="11.8296622">
+   <name>7174</name>
+  </rtept>
+  <rtept lat="48.0815265" lon="11.8297748">
+   <name>7175</name>
+  </rtept>
+  <rtept lat="48.0816018" lon="11.8297748">
+   <name>7176</name>
+  </rtept>
+  <rtept lat="48.0820354" lon="11.8297373">
+   <name>7177</name>
+  </rtept>
+  <rtept lat="48.0828023" lon="11.8294529">
+   <name>7178</name>
+  </rtept>
+  <rtept lat="48.0828131" lon="11.8295066">
+   <name>7179</name>
+  </rtept>
+  <rtept lat="48.0828597" lon="11.8294637">
+   <name>7180</name>
+  </rtept>
+  <rtept lat="48.0827862" lon="11.8287636">
+   <name>7181</name>
+  </rtept>
+  <rtept lat="48.0827199" lon="11.8278168">
+   <name>7182</name>
+  </rtept>
+  <rtept lat="48.0827557" lon="11.8270309">
+   <name>7183</name>
+  </rtept>
+  <rtept lat="48.0830281" lon="11.827098">
+   <name>7184</name>
+  </rtept>
+  <rtept lat="48.0830944" lon="11.8273018">
+   <name>7185</name>
+  </rtept>
+  <rtept lat="48.0832395" lon="11.8274949">
+   <name>7186</name>
+  </rtept>
+  <rtept lat="48.0837592" lon="11.827511">
+   <name>7187</name>
+  </rtept>
+  <rtept lat="48.0838344" lon="11.8275325">
+   <name>7188</name>
+  </rtept>
+  <rtept lat="48.0838631" lon="11.8280421">
+   <name>7189</name>
+  </rtept>
+  <rtept lat="48.0838631" lon="11.8283532">
+   <name>7190</name>
+  </rtept>
+  <rtept lat="48.0838058" lon="11.8287073">
+   <name>7191</name>
+  </rtept>
+  <rtept lat="48.0836445" lon="11.8292706">
+   <name>7192</name>
+  </rtept>
+  <rtept lat="48.0835907" lon="11.829807">
+   <name>7193</name>
+  </rtept>
+  <rtept lat="48.0836194" lon="11.8301932">
+   <name>7194</name>
+  </rtept>
+  <rtept lat="48.0847375" lon="11.8297534">
+   <name>7195</name>
+  </rtept>
+  <rtept lat="48.0852177" lon="11.82963">
+   <name>7196</name>
+  </rtept>
+  <rtept lat="48.0851389" lon="11.8286429">
+   <name>7197</name>
+  </rtept>
+  <rtept lat="48.0850134" lon="11.8273555">
+   <name>7198</name>
+  </rtept>
+  <rtept lat="48.0866153" lon="11.8272911">
+   <name>7199</name>
+  </rtept>
+  <rtept lat="48.0869199" lon="11.8273555">
+   <name>7200</name>
+  </rtept>
+  <rtept lat="48.0869665" lon="11.8273072">
+   <name>7201</name>
+  </rtept>
+  <rtept lat="48.0869342" lon="11.82757">
+   <name>7202</name>
+  </rtept>
+  <rtept lat="48.0870829" lon="11.8294181">
+   <name>7203</name>
+  </rtept>
+  <rtept lat="48.0872101" lon="11.8312661">
+   <name>7204</name>
+  </rtept>
+  <rtept lat="48.0873176" lon="11.8325589">
+   <name>7205</name>
+  </rtept>
+  <rtept lat="48.0874072" lon="11.8339483">
+   <name>7206</name>
+  </rtept>
+  <rtept lat="48.0876079" lon="11.8371294">
+   <name>7207</name>
+  </rtept>
+  <rtept lat="48.0876366" lon="11.8376283">
+   <name>7208</name>
+  </rtept>
+  <rtept lat="48.087891" lon="11.8375747">
+   <name>7209</name>
+  </rtept>
+  <rtept lat="48.0880379" lon="11.8377678">
+   <name>7210</name>
+  </rtept>
+  <rtept lat="48.0882314" lon="11.8378053">
+   <name>7211</name>
+  </rtept>
+  <rtept lat="48.0883138" lon="11.8379663">
+   <name>7212</name>
+  </rtept>
+  <rtept lat="48.0880988" lon="11.8392537">
+   <name>7213</name>
+  </rtept>
+  <rtept lat="48.0879895" lon="11.8395327">
+   <name>7214</name>
+  </rtept>
+  <rtept lat="48.0879304" lon="11.8397795">
+   <name>7215</name>
+  </rtept>
+  <rtept lat="48.0883246" lon="11.8399297">
+   <name>7216</name>
+  </rtept>
+  <rtept lat="48.0883604" lon="11.8399779">
+   <name>7217</name>
+  </rtept>
+  <rtept lat="48.0884392" lon="11.8396668">
+   <name>7218</name>
+  </rtept>
+  <rtept lat="48.0889588" lon="11.8388621">
+   <name>7219</name>
+  </rtept>
+  <rtept lat="48.0896719" lon="11.8379502">
+   <name>7220</name>
+  </rtept>
+  <rtept lat="48.0898421" lon="11.8377598">
+   <name>7221</name>
+  </rtept>
+  <rtept lat="48.0914366" lon="11.8365849">
+   <name>7222</name>
+  </rtept>
+  <rtept lat="48.0920887" lon="11.8363918">
+   <name>7223</name>
+  </rtept>
+  <rtept lat="48.092834" lon="11.8359466">
+   <name>7224</name>
+  </rtept>
+  <rtept lat="48.0930848" lon="11.8360753">
+   <name>7225</name>
+  </rtept>
+  <rtept lat="48.0932425" lon="11.8363328">
+   <name>7226</name>
+  </rtept>
+  <rtept lat="48.0935291" lon="11.8358768">
+   <name>7227</name>
+  </rtept>
+  <rtept lat="48.0935936" lon="11.8357481">
+   <name>7228</name>
+  </rtept>
+  <rtept lat="48.0940558" lon="11.834761">
+   <name>7229</name>
+  </rtept>
+  <rtept lat="48.0942349" lon="11.8343426">
+   <name>7230</name>
+  </rtept>
+  <rtept lat="48.0945216" lon="11.8334843">
+   <name>7231</name>
+  </rtept>
+  <rtept lat="48.0949336" lon="11.8337579">
+   <name>7232</name>
+  </rtept>
+  <rtept lat="48.095136" lon="11.833664">
+   <name>7233</name>
+  </rtept>
+  <rtept lat="48.095274" lon="11.8335487">
+   <name>7234</name>
+  </rtept>
+  <rtept lat="48.0958472" lon="11.832803">
+   <name>7235</name>
+  </rtept>
+  <rtept lat="48.0957469" lon="11.832744">
+   <name>7236</name>
+  </rtept>
+  <rtept lat="48.0955105" lon="11.8324061">
+   <name>7237</name>
+  </rtept>
+  <rtept lat="48.09536" lon="11.8319072">
+   <name>7238</name>
+  </rtept>
+  <rtept lat="48.0952776" lon="11.8315746">
+   <name>7239</name>
+  </rtept>
+  <rtept lat="48.0952382" lon="11.831419">
+   <name>7240</name>
+  </rtept>
+  <rtept lat="48.0951163" lon="11.8308718">
+   <name>7241</name>
+  </rtept>
+  <rtept lat="48.0949408" lon="11.8306036">
+   <name>7242</name>
+  </rtept>
+  <rtept lat="48.0943191" lon="11.8305956">
+   <name>7243</name>
+  </rtept>
+  <rtept lat="48.0935399" lon="11.8306519">
+   <name>7244</name>
+  </rtept>
+  <rtept lat="48.0926585" lon="11.8305232">
+   <name>7245</name>
+  </rtept>
+  <rtept lat="48.0904154" lon="11.8295039">
+   <name>7246</name>
+  </rtept>
+  <rtept lat="48.090005" lon="11.8292857">
+   <name>7247</name>
+  </rtept>
+  <rtept lat="48.0897595" lon="11.8292177">
+   <name>7248</name>
+  </rtept>
+  <rtept lat="48.0897272" lon="11.8293625">
+   <name>7249</name>
+  </rtept>
+  <rtept lat="48.0896735" lon="11.8295556">
+   <name>7250</name>
+  </rtept>
+  <rtept lat="48.0896412" lon="11.829738">
+   <name>7251</name>
+  </rtept>
+  <rtept lat="48.0895803" lon="11.8300492">
+   <name>7252</name>
+  </rtept>
+  <rtept lat="48.0893402" lon="11.8311542">
+   <name>7253</name>
+  </rtept>
+  <rtept lat="48.0886307" lon="11.8310899">
+   <name>7254</name>
+  </rtept>
+  <rtept lat="48.0878531" lon="11.8311703">
+   <name>7255</name>
+  </rtept>
+  <rtept lat="48.0878209" lon="11.8307519">
+   <name>7256</name>
+  </rtept>
+  <rtept lat="48.0876417" lon="11.8307304">
+   <name>7257</name>
+  </rtept>
+  <rtept lat="48.0876059" lon="11.8305802">
+   <name>7258</name>
+  </rtept>
+ </rte>
+</gpx>
+ 

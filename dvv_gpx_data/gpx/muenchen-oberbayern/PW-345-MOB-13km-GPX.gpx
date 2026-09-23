@@ -1,0 +1,687 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<gpx version="1.1" creator="GORP (V2.2.1) - GPS Online Routen Planer auf GpsWandern.de - http://www.gpswandern.de" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:topografix="http://www.topografix.com/GPX/Private/TopoGrafix/0/1" xmlns="http://www.topografix.com/GPX/1/1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+ <metadata>
+  <time>2015-12-17T11:41:18Z</time>
+  <bounds minlat="48.0875523" minlon="11.8071584" maxlat="48.1086936" maxlon="11.8435131"/>
+ </metadata>
+ <rte>
+  <name>13,1 km</name>
+  <extensions>
+   <gpxx:RouteExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+    <gpxx:DisplayColor>Yellow</gpxx:DisplayColor>
+   </gpxx:RouteExtension>
+  </extensions>
+  <rtept lat="48.0875882" lon="11.8304937">
+   <ele>561</ele>
+   <name>T1001</name>
+  </rtept>
+  <rtept lat="48.0875523" lon="11.8307591">
+   <ele>561</ele>
+   <name>T1002</name>
+  </rtept>
+  <rtept lat="48.0877745" lon="11.8306761">
+   <ele>561</ele>
+   <name>T1003</name>
+  </rtept>
+  <rtept lat="48.0878318" lon="11.8312192">
+   <ele>569</ele>
+   <name>T1004</name>
+  </rtept>
+  <rtept lat="48.0885914" lon="11.8311045">
+   <ele>564</ele>
+   <name>T1005</name>
+  </rtept>
+  <rtept lat="48.0887849" lon="11.8295577">
+   <name>T1006</name>
+  </rtept>
+  <rtept lat="48.0888422" lon="11.8283221">
+   <ele>559</ele>
+   <name>T1007</name>
+  </rtept>
+  <rtept lat="48.0891253" lon="11.8282827">
+   <ele>559</ele>
+   <name>T1008</name>
+  </rtept>
+  <rtept lat="48.0895033" lon="11.8287243">
+   <ele>559</ele>
+   <name>T1009</name>
+  </rtept>
+  <rtept lat="48.0898608" lon="11.8292295">
+   <ele>560</ele>
+   <name>T1010</name>
+  </rtept>
+  <rtept lat="48.0899537" lon="11.8290231">
+   <ele>559</ele>
+   <name>T1011</name>
+  </rtept>
+  <rtept lat="48.0903907" lon="11.8269286">
+   <ele>556</ele>
+   <name>T1012</name>
+  </rtept>
+  <rtept lat="48.0907342" lon="11.8248208">
+   <ele>555</ele>
+   <name>T1013</name>
+  </rtept>
+  <rtept lat="48.0906483" lon="11.8245767">
+   <ele>562</ele>
+   <name>T1014</name>
+  </rtept>
+  <rtept lat="48.0910953" lon="11.8224014">
+   <ele>552</ele>
+   <name>T1015</name>
+  </rtept>
+  <rtept lat="48.0916054" lon="11.8225369">
+   <ele>551</ele>
+   <name>T1016</name>
+  </rtept>
+  <rtept lat="48.0922045" lon="11.823023">
+   <ele>551</ele>
+   <name>T1017</name>
+  </rtept>
+  <rtept lat="48.0917802" lon="11.8249505">
+   <ele>550</ele>
+   <name>T1018</name>
+  </rtept>
+  <rtept lat="48.0919694" lon="11.825056">
+   <ele>552</ele>
+   <name>T1019</name>
+  </rtept>
+  <rtept lat="48.0929469" lon="11.8250863">
+   <ele>551</ele>
+   <name>T1020</name>
+  </rtept>
+  <rtept lat="48.0928447" lon="11.8260573">
+   <ele>553</ele>
+   <name>T1021</name>
+  </rtept>
+  <rtept lat="48.0945646" lon="11.8262504">
+   <ele>555</ele>
+   <name>T1022</name>
+  </rtept>
+  <rtept lat="48.0949121" lon="11.8283908">
+   <ele>562</ele>
+   <name>T1023</name>
+  </rtept>
+  <rtept lat="48.0950411" lon="11.8297534">
+   <ele>565</ele>
+   <name>T1024</name>
+  </rtept>
+  <rtept lat="48.0950876" lon="11.8301986">
+   <ele>567</ele>
+   <name>T1025</name>
+  </rtept>
+  <rtept lat="48.0960479" lon="11.8292169">
+   <ele>563</ele>
+   <name>T1026</name>
+  </rtept>
+  <rtept lat="48.0968504" lon="11.82779">
+   <ele>557</ele>
+   <name>T1027</name>
+  </rtept>
+  <rtept lat="48.0977139" lon="11.826347">
+   <ele>553</ele>
+   <name>T1028</name>
+  </rtept>
+  <rtept lat="48.0979324" lon="11.8260921">
+   <ele>553</ele>
+   <name>T1029</name>
+  </rtept>
+  <rtept lat="48.0981581" lon="11.8259232">
+   <ele>553</ele>
+   <name>T1030</name>
+  </rtept>
+  <rtept lat="48.0985468" lon="11.8257971">
+   <ele>554</ele>
+   <name>T1031</name>
+  </rtept>
+  <rtept lat="48.0994658" lon="11.8256388">
+   <ele>554</ele>
+   <name>T1032</name>
+  </rtept>
+  <rtept lat="48.0998957" lon="11.8255906">
+   <ele>554</ele>
+   <name>T1033</name>
+  </rtept>
+  <rtept lat="48.1002181" lon="11.8255047">
+   <ele>554</ele>
+   <name>T1034</name>
+  </rtept>
+  <rtept lat="48.100691" lon="11.8252151">
+   <ele>554</ele>
+   <name>T1035</name>
+  </rtept>
+  <rtept lat="48.1008307" lon="11.8221627">
+   <ele>555</ele>
+   <name>T1036</name>
+  </rtept>
+  <rtept lat="48.1008272" lon="11.8205534">
+   <ele>553</ele>
+   <name>T1037</name>
+  </rtept>
+  <rtept lat="48.1007519" lon="11.818295">
+   <ele>545</ele>
+   <name>T1038</name>
+  </rtept>
+  <rtept lat="48.1006838" lon="11.8174125">
+   <ele>544</ele>
+   <name>T1039</name>
+  </rtept>
+  <rtept lat="48.1005943" lon="11.8165301">
+   <ele>546</ele>
+   <name>T1040</name>
+  </rtept>
+  <rtept lat="48.1004796" lon="11.8155162">
+   <ele>546</ele>
+   <name>T1041</name>
+  </rtept>
+  <rtept lat="48.1000963" lon="11.8132363">
+   <ele>552</ele>
+   <name>T1042</name>
+  </rtept>
+  <rtept lat="48.0999781" lon="11.8127911">
+   <ele>560</ele>
+   <name>T1043</name>
+  </rtept>
+  <rtept lat="48.0997004" lon="11.812201">
+   <ele>552</ele>
+   <name>T1044</name>
+  </rtept>
+  <rtept lat="48.099344" lon="11.8115251">
+   <ele>552</ele>
+   <name>T1045</name>
+  </rtept>
+  <rtept lat="48.0994908" lon="11.811407">
+   <ele>552</ele>
+   <name>T1046</name>
+  </rtept>
+  <rtept lat="48.0998437" lon="11.8111013">
+   <ele>552</ele>
+   <name>T1047</name>
+  </rtept>
+  <rtept lat="48.1000246" lon="11.8107097">
+   <ele>545</ele>
+   <name>T1048</name>
+  </rtept>
+  <rtept lat="48.100476" lon="11.8102403">
+   <ele>545</ele>
+   <name>T1049</name>
+  </rtept>
+  <rtept lat="48.1009346" lon="11.8096743">
+   <ele>548</ele>
+   <name>T1050</name>
+  </rtept>
+  <rtept lat="48.1023855" lon="11.8083815">
+   <ele>546</ele>
+   <name>T1051</name>
+  </rtept>
+  <rtept lat="48.1030643" lon="11.8077861">
+   <ele>546</ele>
+   <name>T1052</name>
+  </rtept>
+  <rtept lat="48.1037503" lon="11.8072872">
+   <ele>547</ele>
+   <name>T1053</name>
+  </rtept>
+  <rtept lat="48.1038901" lon="11.8071799">
+   <ele>547</ele>
+   <name>T1054</name>
+  </rtept>
+  <rtept lat="48.1039939" lon="11.8071584">
+   <ele>547</ele>
+   <name>T1055</name>
+  </rtept>
+  <rtept lat="48.1040405" lon="11.8075339">
+   <ele>546</ele>
+   <name>T1056</name>
+  </rtept>
+  <rtept lat="48.104062" lon="11.8081938">
+   <ele>546</ele>
+   <name>T1057</name>
+  </rtept>
+  <rtept lat="48.1042447" lon="11.8093847">
+   <ele>545</ele>
+   <name>T1058</name>
+  </rtept>
+  <rtept lat="48.1043808" lon="11.812083">
+   <ele>543</ele>
+   <name>T1059</name>
+  </rtept>
+  <rtept lat="48.1044238" lon="11.8133704">
+   <ele>542</ele>
+   <name>T1060</name>
+  </rtept>
+  <rtept lat="48.1045958" lon="11.8154411">
+   <ele>541</ele>
+   <name>T1061</name>
+  </rtept>
+  <rtept lat="48.1045958" lon="11.8159775">
+   <ele>541</ele>
+   <name>T1062</name>
+  </rtept>
+  <rtept lat="48.104499" lon="11.8182628">
+   <ele>543</ele>
+   <name>T1063</name>
+  </rtept>
+  <rtept lat="48.1044095" lon="11.8196522">
+   <ele>545</ele>
+   <name>T1064</name>
+  </rtept>
+  <rtept lat="48.1044131" lon="11.8200062">
+   <ele>549</ele>
+   <name>T1065</name>
+  </rtept>
+  <rtept lat="48.1044381" lon="11.8203495">
+   <ele>549</ele>
+   <name>T1066</name>
+  </rtept>
+  <rtept lat="48.1044023" lon="11.8211166">
+   <ele>555</ele>
+   <name>T1067</name>
+  </rtept>
+  <rtept lat="48.104173" lon="11.8219642">
+   <ele>556</ele>
+   <name>T1068</name>
+  </rtept>
+  <rtept lat="48.1041426" lon="11.8223102">
+   <ele>556</ele>
+   <name>T1069</name>
+  </rtept>
+  <rtept lat="48.1041193" lon="11.8226723">
+   <ele>555</ele>
+   <name>T1070</name>
+  </rtept>
+  <rtept lat="48.1041587" lon="11.8233751">
+   <ele>556</ele>
+   <name>T1071</name>
+  </rtept>
+  <rtept lat="48.1040369" lon="11.8236272">
+   <ele>556</ele>
+   <name>T1072</name>
+  </rtept>
+  <rtept lat="48.103976" lon="11.8236862">
+   <ele>556</ele>
+   <name>T1073</name>
+  </rtept>
+  <rtept lat="48.1037432" lon="11.8238525">
+   <ele>556</ele>
+   <name>T1074</name>
+  </rtept>
+  <rtept lat="48.1036859" lon="11.8240081">
+   <ele>556</ele>
+   <name>T1075</name>
+  </rtept>
+  <rtept lat="48.1037933" lon="11.8249468">
+   <ele>556</ele>
+   <name>T1076</name>
+  </rtept>
+  <rtept lat="48.1040942" lon="11.8248986">
+   <ele>556</ele>
+   <name>T1077</name>
+  </rtept>
+  <rtept lat="48.1043987" lon="11.8249898">
+   <ele>556</ele>
+   <name>T1078</name>
+  </rtept>
+  <rtept lat="48.104739" lon="11.8251775">
+   <ele>561</ele>
+   <name>T1079</name>
+  </rtept>
+  <rtept lat="48.1053462" lon="11.8257354">
+   <ele>559</ele>
+   <name>T1080</name>
+  </rtept>
+  <rtept lat="48.1060537" lon="11.8263148">
+   <ele>553</ele>
+   <name>T1081</name>
+  </rtept>
+  <rtept lat="48.1066089" lon="11.8266688">
+   <ele>551</ele>
+   <name>T1082</name>
+  </rtept>
+  <rtept lat="48.1069277" lon="11.8270497">
+   <ele>547</ele>
+   <name>T1083</name>
+  </rtept>
+  <rtept lat="48.1074865" lon="11.8283264">
+   <ele>545</ele>
+   <name>T1084</name>
+  </rtept>
+  <rtept lat="48.1077802" lon="11.8288468">
+   <ele>541</ele>
+   <name>T1085</name>
+  </rtept>
+  <rtept lat="48.1084572" lon="11.8296192">
+   <ele>541</ele>
+   <name>T1086</name>
+  </rtept>
+  <rtept lat="48.1084572" lon="11.8297534">
+   <ele>541</ele>
+   <name>T1087</name>
+  </rtept>
+  <rtept lat="48.108665" lon="11.8297641">
+   <ele>541</ele>
+   <name>T1088</name>
+  </rtept>
+  <rtept lat="48.1086936" lon="11.8314592">
+   <ele>537</ele>
+   <name>T1089</name>
+  </rtept>
+  <rtept lat="48.1086793" lon="11.8325589">
+   <ele>537</ele>
+   <name>T1090</name>
+  </rtept>
+  <rtept lat="48.1083641" lon="11.8362926">
+   <ele>538</ele>
+   <name>T1091</name>
+  </rtept>
+  <rtept lat="48.108099" lon="11.8364428">
+   <ele>540</ele>
+   <name>T1092</name>
+  </rtept>
+  <rtept lat="48.1070997" lon="11.8360297">
+   <ele>542</ele>
+   <name>T1093</name>
+  </rtept>
+  <rtept lat="48.1067415" lon="11.8358259">
+   <ele>538</ele>
+   <name>T1094</name>
+  </rtept>
+  <rtept lat="48.1053122" lon="11.8353538">
+   <ele>541</ele>
+   <name>T1095</name>
+  </rtept>
+  <rtept lat="48.1049647" lon="11.8354075">
+   <ele>540</ele>
+   <name>T1096</name>
+  </rtept>
+  <rtept lat="48.1043414" lon="11.83574">
+   <ele>540</ele>
+   <name>T1097</name>
+  </rtept>
+  <rtept lat="48.1034996" lon="11.836357">
+   <ele>543</ele>
+   <name>T1098</name>
+  </rtept>
+  <rtept lat="48.1032309" lon="11.8364213">
+   <ele>547</ele>
+   <name>T1099</name>
+  </rtept>
+  <rtept lat="48.1030124" lon="11.8364106">
+   <ele>547</ele>
+   <name>T1100</name>
+  </rtept>
+  <rtept lat="48.1026327" lon="11.8360834">
+   <ele>547</ele>
+   <name>T1101</name>
+  </rtept>
+  <rtept lat="48.1022798" lon="11.8354772">
+   <ele>543</ele>
+   <name>T1102</name>
+  </rtept>
+  <rtept lat="48.1022261" lon="11.8363087">
+   <ele>545</ele>
+   <name>T1103</name>
+  </rtept>
+  <rtept lat="48.1020433" lon="11.8374191">
+   <ele>544</ele>
+   <name>T1104</name>
+  </rtept>
+  <rtept lat="48.1021258" lon="11.8378215">
+   <ele>556</ele>
+   <name>T1105</name>
+  </rtept>
+  <rtept lat="48.1020936" lon="11.838138">
+   <ele>543</ele>
+   <name>T1106</name>
+  </rtept>
+  <rtept lat="48.1018437" lon="11.8382788">
+   <ele>556</ele>
+   <name>T1107</name>
+  </rtept>
+  <rtept lat="48.1015898" lon="11.8381561">
+   <ele>554</ele>
+   <name>T1108</name>
+  </rtept>
+  <rtept lat="48.1011639" lon="11.8383767">
+   <ele>556</ele>
+   <name>T1109</name>
+  </rtept>
+  <rtept lat="48.1006928" lon="11.838315">
+   <ele>548</ele>
+   <name>T1110</name>
+  </rtept>
+  <rtept lat="48.1003525" lon="11.8386207">
+   <ele>545</ele>
+   <name>T1111</name>
+  </rtept>
+  <rtept lat="48.1003167" lon="11.8399404">
+   <ele>545</ele>
+   <name>T1112</name>
+  </rtept>
+  <rtept lat="48.0984537" lon="11.8392054">
+   <ele>548</ele>
+   <name>T1113</name>
+  </rtept>
+  <rtept lat="48.0983964" lon="11.8390284">
+   <ele>546</ele>
+   <name>T1114</name>
+  </rtept>
+  <rtept lat="48.0971353" lon="11.8341897">
+   <ele>549</ele>
+   <name>T1115</name>
+  </rtept>
+  <rtept lat="48.0951611" lon="11.8353914">
+   <ele>552</ele>
+   <name>T1116</name>
+  </rtept>
+  <rtept lat="48.0942905" lon="11.8348012">
+   <ele>557</ele>
+   <name>T1117</name>
+  </rtept>
+  <rtept lat="48.0942833" lon="11.835488">
+   <ele>554</ele>
+   <name>T1118</name>
+  </rtept>
+  <rtept lat="48.0940181" lon="11.8368934">
+   <ele>550</ele>
+   <name>T1119</name>
+  </rtept>
+  <rtept lat="48.0941436" lon="11.8387656">
+   <ele>550</ele>
+   <name>T1120</name>
+  </rtept>
+  <rtept lat="48.094183" lon="11.8409382">
+   <ele>549</ele>
+   <name>T1121</name>
+  </rtept>
+  <rtept lat="48.094355" lon="11.8423222">
+   <ele>551</ele>
+   <name>T1122</name>
+  </rtept>
+  <rtept lat="48.0940038" lon="11.8426226">
+   <ele>552</ele>
+   <name>T1123</name>
+  </rtept>
+  <rtept lat="48.093341" lon="11.8428426">
+   <ele>552</ele>
+   <name>T1124</name>
+  </rtept>
+  <rtept lat="48.0919902" lon="11.8426548">
+   <ele>553</ele>
+   <name>T1125</name>
+  </rtept>
+  <rtept lat="48.0916964" lon="11.8425475">
+   <ele>553</ele>
+   <name>T1126</name>
+  </rtept>
+  <rtept lat="48.0912377" lon="11.8426119">
+   <ele>554</ele>
+   <name>T1127</name>
+  </rtept>
+  <rtept lat="48.0908866" lon="11.8428372">
+   <ele>554</ele>
+   <name>T1128</name>
+  </rtept>
+  <rtept lat="48.0907791" lon="11.8427513">
+   <ele>552</ele>
+   <name>T1129</name>
+  </rtept>
+  <rtept lat="48.0909296" lon="11.8421613">
+   <ele>552</ele>
+   <name>T1130</name>
+  </rtept>
+  <rtept lat="48.0886363" lon="11.8434058">
+   <ele>554</ele>
+   <name>T1131</name>
+  </rtept>
+  <rtept lat="48.0880271" lon="11.8435131">
+   <ele>556</ele>
+   <name>T1132</name>
+  </rtept>
+  <rtept lat="48.0877906" lon="11.8434916">
+   <ele>556</ele>
+   <name>T1133</name>
+  </rtept>
+  <rtept lat="48.0877046" lon="11.8433307">
+   <ele>554</ele>
+   <name>T1134</name>
+  </rtept>
+  <rtept lat="48.0883568" lon="11.8399297">
+   <ele>556</ele>
+   <name>T1135</name>
+  </rtept>
+  <rtept lat="48.0886972" lon="11.8391947">
+   <ele>561</ele>
+   <name>T1136</name>
+  </rtept>
+  <rtept lat="48.0892383" lon="11.8385671">
+   <ele>561</ele>
+   <name>T1137</name>
+  </rtept>
+  <rtept lat="48.0900266" lon="11.8377303">
+   <ele>561</ele>
+   <name>T1138</name>
+  </rtept>
+  <rtept lat="48.0912091" lon="11.8367646">
+   <ele>562</ele>
+   <name>T1139</name>
+  </rtept>
+  <rtept lat="48.092696" lon="11.8360995">
+   <ele>563</ele>
+   <name>T1140</name>
+  </rtept>
+  <rtept lat="48.0931654" lon="11.8359278">
+   <ele>559</ele>
+   <name>T1141</name>
+  </rtept>
+  <rtept lat="48.0937244" lon="11.8355845">
+   <ele>559</ele>
+   <name>T1142</name>
+  </rtept>
+  <rtept lat="48.0942296" lon="11.834474">
+   <ele>559</ele>
+   <name>T1143</name>
+  </rtept>
+  <rtept lat="48.0945055" lon="11.8334709">
+   <ele>561</ele>
+   <name>T1144</name>
+  </rtept>
+  <rtept lat="48.0950285" lon="11.8336359">
+   <ele>561</ele>
+   <name>T1145</name>
+  </rtept>
+  <rtept lat="48.0951735" lon="11.8335896">
+   <ele>561</ele>
+   <name>T1146</name>
+  </rtept>
+  <rtept lat="48.095359" lon="11.8333931">
+   <ele>561</ele>
+   <name>T1147</name>
+  </rtept>
+  <rtept lat="48.0958072" lon="11.8327574">
+   <ele>562</ele>
+   <name>T1148</name>
+  </rtept>
+  <rtept lat="48.095603" lon="11.8325814">
+   <ele>563</ele>
+   <name>T1149</name>
+  </rtept>
+  <rtept lat="48.09548" lon="11.832341">
+   <ele>566</ele>
+   <name>T1150</name>
+  </rtept>
+  <rtept lat="48.0953149" lon="11.8318334">
+   <ele>566</ele>
+   <name>T1151</name>
+  </rtept>
+  <rtept lat="48.0951295" lon="11.830725">
+   <ele>567</ele>
+   <name>T1152</name>
+  </rtept>
+  <rtept lat="48.0950672" lon="11.8305731">
+   <ele>567</ele>
+   <name>T1153</name>
+  </rtept>
+  <rtept lat="48.0949593" lon="11.8305446">
+   <ele>565</ele>
+   <name>T1154</name>
+  </rtept>
+  <rtept lat="48.0942593" lon="11.8306076">
+   <ele>565</ele>
+   <name>T1155</name>
+  </rtept>
+  <rtept lat="48.0935541" lon="11.8305795">
+   <ele>561</ele>
+   <name>T1156</name>
+  </rtept>
+  <rtept lat="48.0925312" lon="11.8305097">
+   <ele>561</ele>
+   <name>T1157</name>
+  </rtept>
+  <rtept lat="48.0903902" lon="11.8295119">
+   <ele>559</ele>
+   <name>T1158</name>
+  </rtept>
+  <rtept lat="48.0899248" lon="11.8292598">
+   <ele>559</ele>
+   <name>T1159</name>
+  </rtept>
+  <rtept lat="48.0897102" lon="11.8292973">
+   <ele>561</ele>
+   <name>T1160</name>
+  </rtept>
+  <rtept lat="48.0895853" lon="11.8301073">
+   <ele>558</ele>
+   <name>T1161</name>
+  </rtept>
+  <rtept lat="48.0894655" lon="11.8305875">
+   <ele>565</ele>
+   <name>T1162</name>
+  </rtept>
+  <rtept lat="48.0893268" lon="11.8311494">
+   <ele>562</ele>
+   <name>T1163</name>
+  </rtept>
+  <rtept lat="48.0886626" lon="11.8311031">
+   <ele>564</ele>
+   <name>T1164</name>
+  </rtept>
+  <rtept lat="48.0878575" lon="11.8311766">
+   <ele>569</ele>
+   <name>T1165</name>
+  </rtept>
+  <rtept lat="48.0878133" lon="11.8306661">
+   <ele>567</ele>
+   <name>T1166</name>
+  </rtept>
+  <rtept lat="48.0876048" lon="11.8307435">
+   <ele>567</ele>
+   <name>T1167</name>
+  </rtept>
+  <rtept lat="48.0875756" lon="11.8304775">
+   <ele>561</ele>
+   <name>T1168</name>
+  </rtept>
+ </rte>
+</gpx>
+ 
