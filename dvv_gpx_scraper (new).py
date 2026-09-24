@@ -71,11 +71,43 @@ session.headers.update(HEADERS)
 # Route links look like: /permanente-wanderwege/<region-slug>/wanderweg/<route-slug>
 ROUTE_LINK_PATTERN = re.compile(r"^/permanente-wanderwege/([^/]+)/wanderweg/([^/?]+)/?$")
 
-REGION_LABELS = {
+# DVV divides Bavaria into its 7 Regierungsbezirke instead of listing it as
+# one state; consolidate all of these (and everything else) onto the real
+# 16 German Bundesländer instead of DVV's internal regional divisions.
+REGION_TO_STATE = {
+    "schleswig-holstein": "schleswig-holstein",
+    "hamburg": "hamburg",
+    "mecklenburg-vorpommern": "mecklenburg-vorpommern",
+    "niedersachsen": "niedersachsen",
+    "bremen": "bremen",
+    "berlin": "berlin",
+    "brandenburg": "brandenburg",
+    "sachsen-anhalt": "sachsen-anhalt",
+    "nordrhein-westfalen": "nordrhein-westfalen",
+    "rheinland-pfalz": "rheinland-pfalz",
+    "hessen": "hessen",
+    "saarland": "saarland",
+    "thueringen": "thueringen",
+    "sachsen": "sachsen",
+    "baden-wuerttemberg": "baden-wuerttemberg",
+    # Bavaria's 7 Regierungsbezirke all consolidate to one "bayern" entry
+    "schwaben": "bayern",
+    "mittelfranken": "bayern",
+    "oberfranken": "bayern",
+    "unterfranken": "bayern",
+    "oberpfalz": "bayern",
+    "niederbayern": "bayern",
+    "muenchen-oberbayern": "bayern",
+    "oberbayern": "bayern",
+    "bayern": "bayern",
+}
+
+STATE_LABELS = {
     "schleswig-holstein": "Schleswig-Holstein",
     "hamburg": "Hamburg",
     "mecklenburg-vorpommern": "Mecklenburg-Vorpommern",
     "niedersachsen": "Niedersachsen",
+    "bremen": "Bremen",
     "berlin": "Berlin",
     "brandenburg": "Brandenburg",
     "sachsen-anhalt": "Sachsen-Anhalt",
@@ -86,18 +118,17 @@ REGION_LABELS = {
     "thueringen": "Thüringen",
     "sachsen": "Sachsen",
     "baden-wuerttemberg": "Baden-Württemberg",
-    "schwaben": "Schwaben",
-    "mittelfranken": "Mittelfranken",
-    "oberfranken": "Oberfranken",
-    "unterfranken": "Unterfranken",
-    "oberpfalz": "Oberpfalz",
-    "niederbayern": "Niederbayern",
-    "muenchen-oberbayern": "Oberbayern (München)",
+    "bayern": "Bayern",
 }
 
 
-def region_label(slug: str) -> str:
-    return REGION_LABELS.get(slug, slug.replace("-", " ").title())
+def canonical_region(slug: str) -> str:
+    """Map a raw DVV URL region slug onto one of the 16 real states."""
+    return REGION_TO_STATE.get(slug, slug)
+
+
+def region_label(canonical_slug: str) -> str:
+    return STATE_LABELS.get(canonical_slug, canonical_slug.replace("-", " ").title())
 
 
 # Section labels as they appear once HTML is flattened to plain text.
@@ -377,8 +408,9 @@ def main():
         )
         return
 
-    for i, (region_slug, route_url) in enumerate(route_links, 1):
-        print(f"[{i}/{len(route_links)}] ({region_label(region_slug)}) {route_url}")
+    for i, (raw_region_slug, route_url) in enumerate(route_links, 1):
+        state_slug = canonical_region(raw_region_slug)
+        print(f"[{i}/{len(route_links)}] ({region_label(state_slug)}) {route_url}")
         try:
             route_soup = get_soup(route_url)
         except requests.RequestException as e:
@@ -393,7 +425,7 @@ def main():
             print("    ! No GPX links found on this page - skipping.")
             continue
 
-        region_dir = GPX_DIR / region_slug
+        region_dir = GPX_DIR / state_slug
         region_dir.mkdir(parents=True, exist_ok=True)
 
         for gpx_url in gpx_links:
@@ -408,7 +440,7 @@ def main():
                     print(f"    ! Unexpected response for {gpx_url} (status {resp.status_code})")
                     continue
                 local_path.write_bytes(resp.content)
-                print(f"    - Saved {region_slug}/{filename} ({len(resp.content)} bytes)")
+                print(f"    - Saved {state_slug}/{filename} ({len(resp.content)} bytes)")
             except requests.RequestException as e:
                 print(f"    ! Failed to download {gpx_url}: {e}")
                 continue
@@ -422,8 +454,8 @@ def main():
                     "start_address": meta["start_address"],
                     "start_hours": meta["start_hours"],
                     "accessibility_notes": meta["accessibility_notes"],
-                    "region": region_slug,
-                    "region_label": region_label(region_slug),
+                    "region": state_slug,
+                    "region_label": region_label(state_slug),
                     "source_page": route_url,
                     "gpx_source_url": gpx_url,
                     "gpx_local_path": str(local_path.as_posix()),
