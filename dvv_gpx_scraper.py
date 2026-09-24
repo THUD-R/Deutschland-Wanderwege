@@ -217,6 +217,32 @@ def extract_core_sections(text: str) -> dict:
     return sections
 
 
+POSTAL_CODE_PATTERN = re.compile(r"^\d{5}\b")
+
+
+def group_address_lines(address_lines: list[str]) -> str | None:
+    """
+    German addresses reliably end with a 5-digit postal code + city
+    (e.g. "65307 Bad Schwalbach"). Some routes list up to three separate
+    start-point addresses back to back with no other separator, so use
+    that postal-code line as the boundary marker between one address
+    block and the next, joining fragments within a block by ", " and
+    blocks themselves by a newline.
+    """
+    if not address_lines:
+        return None
+    blocks = []
+    current = []
+    for line in address_lines:
+        current.append(line)
+        if POSTAL_CODE_PATTERN.match(line.strip()):
+            blocks.append(", ".join(current))
+            current = []
+    if current:
+        blocks.append(", ".join(current))
+    return "\n".join(blocks)
+
+
 def classify_start_block(raw_block: str) -> tuple[str | None, str | None, str | None]:
     """
     Split the "Start und Ziel" block (address + hours + possibly trailing
@@ -245,7 +271,7 @@ def classify_start_block(raw_block: str) -> tuple[str | None, str | None, str | 
             continue
         address_lines.append(line)
 
-    address = ", ".join(address_lines) if address_lines else None
+    address = group_address_lines(address_lines) if address_lines else None
     hours = "; ".join(hour_lines) if hour_lines else None
     notes = " ".join(notes_lines) if notes_lines else None
     return address, hours, notes
