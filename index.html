@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
 <title>Wanderwege Viewer</title>
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css" />
@@ -276,9 +276,56 @@
   #elevation-canvas-wrap.visible { display: block; }
 
   @media (max-width: 780px) {
-    #app { grid-template-columns: 1fr; grid-template-rows: auto 1fr; }
-    #sidebar { max-height: 55vh; }
-    #main { grid-template-rows: 1fr 180px; }
+    html, body { height: auto; }
+
+    #app {
+      display: flex;
+      flex-direction: column;
+      height: auto;
+      min-height: 100vh;
+      min-height: 100dvh;
+      background: var(--forest);
+      color: var(--paper);
+      gap: 16px;
+    }
+
+    /* Break the sidebar open so its header can act as a top banner while
+       the map (a sibling of the sidebar, not a child) sits between the
+       banner and the rest of the sidebar's sections. */
+    #sidebar {
+      display: contents;
+    }
+
+    #sidebar-header {
+      order: 0;
+      padding-top: calc(24px + env(safe-area-inset-top, 0px));
+    }
+
+    #main {
+      order: 1;
+      height: 50vh;
+      height: 50dvh;
+      min-height: 320px;
+      display: grid;
+      grid-template-rows: 1fr 160px;
+    }
+
+    #region-section,
+    #address-section,
+    #global-status,
+    #route-list,
+    #upload-section {
+      order: 2;
+    }
+
+    #route-list {
+      flex: none;
+      overflow-y: visible;
+    }
+
+    #upload-section {
+      padding-bottom: calc(20px + env(safe-area-inset-bottom, 0px));
+    }
   }
 </style>
 </head>
