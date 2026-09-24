@@ -336,11 +336,14 @@
 
   // ---------- Map setup ----------
   const map = L.map('map', { zoomControl: true }).setView([51.0, 10.4], 6); // all of Germany
-  const lightLayer = L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
-    maxZoom: 19,
-    subdomains: 'abcd',
-    attribution: '© OpenStreetMap contributors © <a href="https://carto.com/attributions">CARTO</a>'
-  }).addTo(map);
+  const lightBase = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}', {
+    maxZoom: 16,
+    attribution: 'Tiles © Esri — Esri, DeLorme, NAVTEQ'
+  });
+  const lightReference = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Reference/MapServer/tile/{z}/{y}/{x}', {
+    maxZoom: 16
+  });
+  const lightLayer = L.layerGroup([lightBase, lightReference]).addTo(map);
 
   const terrainLayer = L.tileLayer('https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png', {
     maxZoom: 17,
